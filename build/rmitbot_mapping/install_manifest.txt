@@ -1,0 +1,16 @@
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/launch/lidar.launch.py
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/package_run_dependencies/rmitbot_mapping
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/parent_prefix_path/rmitbot_mapping
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/ament_prefix_path.sh
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/ament_prefix_path.dsv
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/path.sh
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/path.dsv
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.bash
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.sh
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.zsh
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.dsv
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.dsv
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/packages/rmitbot_mapping
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/cmake/rmitbot_mappingConfig.cmake
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/cmake/rmitbot_mappingConfig-version.cmake
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.xml
