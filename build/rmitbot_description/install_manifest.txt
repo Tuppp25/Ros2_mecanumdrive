@@ -7,6 +7,7 @@
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot_gazebo.xacro
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot_ros2_control.xacro
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot.urdf.xacro
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_description/share/rmitbot_description/urdf/rmitbot_lidar.xacro
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_description/share/rmitbot_description/launch/gazebo.launch.py
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_description/share/rmitbot_description/launch/display.launch.py
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_description/share/rmitbot_description/rviz/display.rviz

@@ -14,7 +14,8 @@ def generate_launch_description():
                 'serial_port': '/dev/ttyUSB0',
                 'frame_id': 'laser_link',
                 'angle_compensate': True,
-                'scan_mode': 'Standard'
+                'scan_mode': 'Standard', 
+                'use_sim_time': True, # This is important for simulation
             }]
         )
     ])

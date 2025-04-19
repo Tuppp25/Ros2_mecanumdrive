@@ -1,4 +1,5 @@
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/launch/lidar.launch.py
+/home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/launch/slam.launch.py
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/package_run_dependencies/rmitbot_mapping
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/parent_prefix_path/rmitbot_mapping
 /home/vudinhso/RMIT_Bot/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/ament_prefix_path.sh

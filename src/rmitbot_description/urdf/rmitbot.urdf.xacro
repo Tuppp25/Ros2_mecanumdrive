@@ -15,6 +15,10 @@
     <!-- Include ros2_control Plugins -->
     <xacro:include filename="$(find rmitbot_description)/urdf/rmitbot_ros2_control.xacro" />
 
+    <!-- Include lidar Plugins -->
+    <!-- <xacro:include filename="$(find rmitbot_description)/urdf/rmitbot_lidar.xacro" />  -->
+    <xacro:include filename="rmitbot_lidar.xacro" />
+
     <!-- Robot description -->
     <link name="base_footprint"/>
 
