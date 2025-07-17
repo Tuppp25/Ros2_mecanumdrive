@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rmitbot">
-
     <link name="imu_link">
         <inertial>
             <origin xyz="-0.00552433659106688 0.000168210391520346 0.000514000497342681" rpy="0 0 0" />

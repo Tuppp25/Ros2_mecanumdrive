@@ -42,10 +42,11 @@ rmitbot_controller:
     # Publish to TF directly
     # The controller broadcast odom-->base_footprint_raw
     # The localization broadcast odom-->base_footprint
-    enable_odom_tf: true 
+    # enable_odom_tf: true 
+    enable_odom_tf: false
     odom_frame_id: odom
-    # base_frame_id: base_footprint
-    base_frame_id: base_footprint_raw
+    base_frame_id: base_footprint
+    # base_frame_id: base_footprint_raw
 
     # Velocity and acceleration limits
     # Whenever a min_* is unspecified, default to -max_*

@@ -6,8 +6,9 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "/home/vudinhso/rmitbot_eeet2610_ws/lesson6_ws/install/rmitbot_firmware/include/**",
         "/opt/ros/jazzy/include/**",
-        "/home/vudinhso/RMIT_Bot/lesson5_ws/src/rmitbot_firmware/include/**",
+        "/home/vudinhso/rmitbot_eeet2610_ws/lesson6_ws/src/rmitbot_firmware/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
