@@ -1,0 +1,71 @@
+[0.088s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware
+[0.388s] -- The C compiler identification is GNU 13.3.0
+[0.831s] -- The CXX compiler identification is GNU 13.3.0
+[0.896s] -- Detecting C compiler ABI info
+[1.696s] -- Detecting C compiler ABI info - done
+[1.740s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.741s] -- Detecting C compile features
+[1.742s] -- Detecting C compile features - done
+[1.763s] -- Detecting CXX compiler ABI info
+[2.148s] -- Detecting CXX compiler ABI info - done
+[2.166s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.167s] -- Detecting CXX compile features
+[2.168s] -- Detecting CXX compile features - done
+[2.176s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.539s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.757s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.887s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.940s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.380s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.398s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.562s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.600s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.643s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.886s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.911s] -- Found hardware_interface: 4.32.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[5.998s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[5.999s] -- Checking for module 'libserial'
+[6.039s] --   Found libserial, version 1.0.0
+[6.272s] -- Configuring done (6.1s)
+[6.321s] -- Generating done (0.0s)
+[6.330s] -- Build files have been written to: /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware
+[6.351s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware
+[6.352s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[6.411s] [ 50%] [32mBuilding CXX object CMakeFiles/rmitbot_firmware.dir/src/rmitbot_interface.cpp.o[0m
+[13.620s] [100%] [32m[1mLinking CXX shared library librmitbot_firmware.so[0m
+[13.980s] [100%] Built target rmitbot_firmware
+[14.011s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[14.030s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware
+[14.045s] -- Install configuration: ""
+[14.050s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/rmitbot_interface.xml
+[14.051s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/librmitbot_firmware.so
+[14.055s] -- Set non-toolchain portion of runtime path of "/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/librmitbot_firmware.so" to ""
+[14.056s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include
+[14.057s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include/rmitbot_firmware
+[14.057s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include/rmitbot_firmware/rmitbot_interface.hpp
+[14.057s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/launch
+[14.057s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/launch/hardware_interface.launch.py
+[14.058s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.sh
+[14.058s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.dsv
+[14.058s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/package_run_dependencies/rmitbot_firmware
+[14.059s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/parent_prefix_path/rmitbot_firmware
+[14.060s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.sh
+[14.061s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.dsv
+[14.063s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.sh
+[14.063s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.dsv
+[14.064s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.bash
+[14.064s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.sh
+[14.064s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.zsh
+[14.065s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.dsv
+[14.065s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.dsv
+[14.066s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/packages/rmitbot_firmware
+[14.066s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rmitbot_firmware
+[14.066s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.067s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[14.068s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.068s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig.cmake
+[14.069s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig-version.cmake
+[14.070s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.xml
+[14.073s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware

@@ -29,7 +29,7 @@ def generate_launch_description():
             {'stamped': True},
         ],         
         remappings=[
-            ('cmd_vel', '/rmitbot_controller/cmd_vel')
+            ('cmd_vel', '/rmitbot_controller/reference')
         ]
     )         
     return LaunchDescription(

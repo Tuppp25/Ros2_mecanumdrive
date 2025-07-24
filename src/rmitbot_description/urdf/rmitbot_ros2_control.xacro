@@ -1,24 +1,19 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rmitbot">
 
+
+
+<robot name="rmitbot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <!-- ros2_control parameters -->
     <ros2_control name="RobotSystem" type="system">
-        <!-- ros2_control Gazebo -->
-        <xacro:if value="$(arg is_sim)">
-            <hardware>
-                <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-            </hardware>
-        </xacro:if>
 
-        <!-- ros2_control Real Robot -->
-        <xacro:unless value="$(arg is_sim)">
-            <hardware>
-                <plugin>rmitbot_firmware/RmitbotInterface</plugin>
-                <param name="port">/dev/ttyUSB0</param>
-            </hardware>
-        </xacro:unless>
+        <!-- ros2_control Gazebo -->
+        <hardware>
+            <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+        </hardware>
 
         <!-- ros2_control Common Interfaces -->
-        <joint name="wheel_right_joint">
+        <joint name="front_left_wheel_joint">
             <command_interface name="velocity">
                 <param name="min">-1</param>
                 <param name="max">1</param>
@@ -27,7 +22,8 @@
             <state_interface name="velocity" />
         </joint>
 
-        <joint name="wheel_left_joint">
+
+        <joint name="front_right_wheel_joint">
             <command_interface name="velocity">
                 <param name="min">-1</param>
                 <param name="max">1</param>
@@ -36,6 +32,23 @@
             <state_interface name="velocity" />
         </joint>
 
+        <joint name="rear_left_wheel_joint">
+            <command_interface name="velocity">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position" />
+            <state_interface name="velocity" />
+        </joint>
+        
+        <joint name="rear_right_wheel_joint">
+            <command_interface name="velocity">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position" />
+            <state_interface name="velocity" />
+        </joint>
     </ros2_control>
 
     <!-- ROS 2 Control Gazebo plugins -->
@@ -44,5 +57,4 @@
             <parameters>$(find rmitbot_controller)/config/rmitbot_controller.yaml</parameters>
         </plugin>
     </gazebo>
-
 </robot>

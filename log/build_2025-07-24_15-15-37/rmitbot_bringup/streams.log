@@ -1,0 +1,42 @@
+[0.031s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_bringup -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup
+[0.399s] -- The C compiler identification is GNU 13.3.0
+[0.817s] -- The CXX compiler identification is GNU 13.3.0
+[0.884s] -- Detecting C compiler ABI info
+[1.476s] -- Detecting C compiler ABI info - done
+[1.584s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.592s] -- Detecting C compile features
+[1.593s] -- Detecting C compile features - done
+[1.657s] -- Detecting CXX compiler ABI info
+[2.047s] -- Detecting CXX compiler ABI info - done
+[2.116s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.117s] -- Detecting CXX compile features
+[2.118s] -- Detecting CXX compile features - done
+[2.140s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.688s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.085s] -- Configuring done (3.0s)
+[3.103s] -- Generating done (0.0s)
+[3.132s] -- Build files have been written to: /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup
+[3.196s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_bringup -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup
+[3.197s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup -- -j4 -l4
+[3.309s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup -- -j4 -l4
+[3.310s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup
+[3.326s] -- Install configuration: ""
+[3.327s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/launch
+[3.327s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/launch/simrobot.launch.py
+[3.328s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/launch/realrobot.launch.py
+[3.329s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/ament_index/resource_index/package_run_dependencies/rmitbot_bringup
+[3.331s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/ament_index/resource_index/parent_prefix_path/rmitbot_bringup
+[3.331s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/environment/ament_prefix_path.sh
+[3.331s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/environment/ament_prefix_path.dsv
+[3.331s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/environment/path.sh
+[3.332s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/environment/path.dsv
+[3.333s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/local_setup.bash
+[3.333s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/local_setup.sh
+[3.333s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/local_setup.zsh
+[3.334s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/local_setup.dsv
+[3.335s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.dsv
+[3.335s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/ament_index/resource_index/packages/rmitbot_bringup
+[3.336s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/cmake/rmitbot_bringupConfig.cmake
+[3.337s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/cmake/rmitbot_bringupConfig-version.cmake
+[3.337s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.xml
+[3.340s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup

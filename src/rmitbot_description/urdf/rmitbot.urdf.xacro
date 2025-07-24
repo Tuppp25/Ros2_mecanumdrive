@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<robot name="rmitbot"
-    xmlns:xacro="http://ros.org/wiki/xacro">
-    <!-- Load Simulated or Real Hardware Interfaces -->
-    <xacro:arg name="is_sim" default="true"/>
+<!-- This is the main urdf document, calling other xacro, including -->
+<!-- rmitbot_platform:  main platform -->
+<!-- rmitbot_gazebo:    gazebo simulation parameters for the main platform -->
+
+<robot name="rmitbot" xmlns:xacro="http://ros.org/wiki/xacro">
+    <!-- Include Gazebo Parameters -->
     <xacro:include filename="$(find rmitbot_description)/urdf/rmitbot_platform.xacro" />
     <xacro:include filename="$(find rmitbot_description)/urdf/rmitbot_gazebo.xacro" />
     <xacro:include filename="$(find rmitbot_description)/urdf/rmitbot_ros2_control.xacro" />
-    <xacro:include filename="$(find rmitbot_description)/urdf/rmitbot_imu.xacro" />
-    <xacro:include filename="$(find rmitbot_description)/urdf/rmitbot_laser.xacro" />
 </robot>
