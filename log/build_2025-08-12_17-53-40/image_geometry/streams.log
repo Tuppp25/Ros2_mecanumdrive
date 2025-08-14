@@ -1,0 +1,31 @@
+[0.045s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry
+[0.615s] -- The C compiler identification is GNU 13.3.0
+[0.990s] -- The CXX compiler identification is GNU 13.3.0
+[1.085s] -- Detecting C compiler ABI info
+[1.502s] -- Detecting C compiler ABI info - done
+[1.556s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.557s] -- Detecting C compile features
+[1.557s] -- Detecting C compile features - done
+[1.608s] -- Detecting CXX compiler ABI info
+[2.063s] -- Detecting CXX compiler ABI info - done
+[2.136s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.138s] -- Detecting CXX compile features
+[2.142s] -- Detecting CXX compile features - done
+[2.277s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.277s]   By not providing "Findament_cmake_python.cmake" in CMAKE_MODULE_PATH this
+[2.277s]   project has asked CMake to find a package configuration file provided by
+[2.278s]   "ament_cmake_python", but CMake did not find one.
+[2.278s] 
+[2.278s]   Could not find a package configuration file provided by
+[2.278s]   "ament_cmake_python" with any of the following names:
+[2.278s] 
+[2.278s]     ament_cmake_pythonConfig.cmake
+[2.278s]     ament_cmake_python-config.cmake
+[2.278s] 
+[2.278s]   Add the installation prefix of "ament_cmake_python" to CMAKE_PREFIX_PATH or
+[2.278s]   set "ament_cmake_python_DIR" to a directory containing one of the above
+[2.278s]   files.  If "ament_cmake_python" provides a separate development package or
+[2.278s]   SDK, be sure it has been installed.
+[2.278s] 
+[2.280s] -- Configuring incomplete, errors occurred!
+[2.280s] [0m

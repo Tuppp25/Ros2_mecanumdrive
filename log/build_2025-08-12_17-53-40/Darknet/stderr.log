@@ -1,0 +1,6 @@
+[0mDarknet_VERSION: 0.2.5.4[0m
+[33mCMake Warning at CMakeLists.txt:105 (message):
+  vcpkg not found, toolchain not defined, system not win32 so build might
+  fail
+
+[0m

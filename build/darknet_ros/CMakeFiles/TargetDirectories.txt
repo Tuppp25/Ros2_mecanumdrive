@@ -1,0 +1,11 @@
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/uninstall.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/darknet_ros_uninstall.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/darknet_ros_lib.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/darknet_ros.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/test.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/edit_cache.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/rebuild_cache.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/list_install_components.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/install.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/install/local.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros/CMakeFiles/install/strip.dir

@@ -1,0 +1,19 @@
+In file included from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+   36 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+   36 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/darknet_ros_lib.dir/build.make:76: CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/darknet_ros_lib.dir/build.make:104: CMakeFiles/darknet_ros_lib.dir/src/yolo_object_detector_node.cpp.o] Error 1
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/src/image_interface.cpp:[m[K In function ‘[01m[Kimage**[01;32m[K load_alphabet_with_file[m[K(char*)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/src/image_interface.cpp:21:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   21 |   char* labels = [01;35m[K"/labels/%d_%d.png"[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/darknet_ros_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

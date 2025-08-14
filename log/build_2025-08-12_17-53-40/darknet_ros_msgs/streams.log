@@ -1,0 +1,32 @@
+[0.047s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs
+[0.648s] -- The C compiler identification is GNU 13.3.0
+[1.003s] -- The CXX compiler identification is GNU 13.3.0
+[1.090s] -- Detecting C compiler ABI info
+[1.535s] -- Detecting C compiler ABI info - done
+[1.586s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.587s] -- Detecting C compile features
+[1.590s] -- Detecting C compile features - done
+[1.640s] -- Detecting CXX compiler ABI info
+[1.905s] -- Detecting CXX compiler ABI info - done
+[1.950s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.956s] -- Detecting CXX compile features
+[1.957s] -- Detecting CXX compile features - done
+[2.016s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[2.016s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.016s]   has asked CMake to find a package configuration file provided by
+[2.016s]   "ament_cmake", but CMake did not find one.
+[2.016s] 
+[2.017s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.017s]   any of the following names:
+[2.017s] 
+[2.017s]     ament_cmakeConfig.cmake
+[2.017s]     ament_cmake-config.cmake
+[2.017s] 
+[2.017s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.017s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.018s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.018s]   has been installed.
+[2.018s] 
+[2.025s] [0m
+[2.026s] -- Configuring incomplete, errors occurred!
+[2.042s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs

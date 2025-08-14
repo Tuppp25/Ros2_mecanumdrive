@@ -1,0 +1,21 @@
+[5.358s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stop_sign_control build --build-base /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/build install --record /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/install.log --single-version-externally-managed install_data
+[6.563s] running egg_info
+[6.643s] writing ../../../build/stop_sign_control/stop_sign_control.egg-info/PKG-INFO
+[6.647s] writing dependency_links to ../../../build/stop_sign_control/stop_sign_control.egg-info/dependency_links.txt
+[6.650s] writing entry points to ../../../build/stop_sign_control/stop_sign_control.egg-info/entry_points.txt
+[6.653s] writing requirements to ../../../build/stop_sign_control/stop_sign_control.egg-info/requires.txt
+[6.656s] writing top-level names to ../../../build/stop_sign_control/stop_sign_control.egg-info/top_level.txt
+[6.736s] reading manifest file '../../../build/stop_sign_control/stop_sign_control.egg-info/SOURCES.txt'
+[6.742s] writing manifest file '../../../build/stop_sign_control/stop_sign_control.egg-info/SOURCES.txt'
+[6.744s] running build
+[6.745s] running build_py
+[6.745s] running install
+[6.773s] running install_lib
+[6.815s] running install_data
+[6.815s] running install_egg_info
+[6.874s] removing '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/python3.12/site-packages/stop_sign_control-0.0.0-py3.12.egg-info' (and everything under it)
+[6.890s] Copying ../../../build/stop_sign_control/stop_sign_control.egg-info to /home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/python3.12/site-packages/stop_sign_control-0.0.0-py3.12.egg-info
+[6.890s] running install_scripts
+[7.373s] Installing robot_controller script to /home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/stop_sign_control
+[7.376s] writing list of installed files to '/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/install.log'
+[7.513s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control' returned '0': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stop_sign_control build --build-base /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/build install --record /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/install.log --single-version-externally-managed install_data

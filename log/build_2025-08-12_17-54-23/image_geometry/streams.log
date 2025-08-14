@@ -1,0 +1,20 @@
+[0.105s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry
+[0.604s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.604s]   By not providing "Findament_cmake_python.cmake" in CMAKE_MODULE_PATH this
+[0.605s]   project has asked CMake to find a package configuration file provided by
+[0.605s]   "ament_cmake_python", but CMake did not find one.
+[0.605s] 
+[0.605s]   Could not find a package configuration file provided by
+[0.605s]   "ament_cmake_python" with any of the following names:
+[0.605s] 
+[0.605s]     ament_cmake_pythonConfig.cmake
+[0.605s]     ament_cmake_python-config.cmake
+[0.606s] 
+[0.606s]   Add the installation prefix of "ament_cmake_python" to CMAKE_PREFIX_PATH or
+[0.606s]   set "ament_cmake_python_DIR" to a directory containing one of the above
+[0.606s]   files.  If "ament_cmake_python" provides a separate development package or
+[0.606s]   SDK, be sure it has been installed.
+[0.606s] 
+[0.607s] [0m
+[0.610s] -- Configuring incomplete, errors occurred!
+[0.610s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry

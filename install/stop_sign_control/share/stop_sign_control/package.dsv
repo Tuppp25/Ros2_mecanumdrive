@@ -1,0 +1,4 @@
+source;share/stop_sign_control/hook/pythonpath.dsv
+source;share/stop_sign_control/hook/pythonpath.sh
+source;share/stop_sign_control/hook/ament_prefix_path.dsv
+source;share/stop_sign_control/hook/ament_prefix_path.sh

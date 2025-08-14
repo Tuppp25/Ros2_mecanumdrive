@@ -33,6 +33,20 @@ def generate_launch_description():
         }.items()
     )
 
+    localization = IncludeLaunchDescription(
+        os.path.join(
+            get_package_share_directory("rmitbot_localization"),
+            "launch",
+            "local_localization.launch.py"
+        ),
+    )
+    
+    mapping_launch = IncludeLaunchDescription(
+        os.path.join(get_package_share_directory("rmitbot_mapping"),"launch","slam.launch.py"),
+        launch_arguments={"use_sim": "false"}.items()
+        # launch_arguments={"use_sim": LaunchConfiguration('use_sim')}.items()
+    )
+
     # imu_driver_node = Node(
     #     package="bumperbot_firmware",
     #     executable="mpu6050_driver.py"
@@ -43,4 +57,6 @@ def generate_launch_description():
         controller,
         teleopkeyboard,
         # imu_driver_node,
+        mapping_launch,
+        localization,
     ])

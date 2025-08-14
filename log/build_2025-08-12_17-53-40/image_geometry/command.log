@@ -1,0 +1,1 @@
+Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/image_geometry -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry

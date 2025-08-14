@@ -1,0 +1,9 @@
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/dark.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/uselib.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/darknet.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/edit_cache.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/rebuild_cache.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/list_install_components.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/install.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/install/local.dir
+/home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/install/strip.dir

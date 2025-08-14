@@ -46,7 +46,7 @@ namespace rmitbot_firmware
     velocity_commands_.assign(info_.joints.size(), 0.0);
     position_states_.assign(info_.joints.size(), 0.0);
     velocity_states_.assign(info_.joints.size(), 0.0);
-    last_run_ = rclcpp::Clock().now();
+    //last_run_ = rclcpp::Clock().now();
 
     return CallbackReturn::SUCCESS;
   }
@@ -89,6 +89,7 @@ namespace rmitbot_firmware
     velocity_commands_ = {0.0, 0.0, 0.0, 0.0};
     position_states_ = {0.0, 0.0, 0.0, 0.0};
     velocity_states_ = {0.0, 0.0, 0.0, 0.0};
+    last_run_ = rclcpp::Clock().now();
 
     try
     {

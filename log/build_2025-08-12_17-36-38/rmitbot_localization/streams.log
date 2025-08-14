@@ -1,0 +1,49 @@
+[0.082s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_localization -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization
+[0.251s] -- The C compiler identification is GNU 13.3.0
+[0.483s] -- The CXX compiler identification is GNU 13.3.0
+[0.561s] -- Detecting C compiler ABI info
+[0.993s] -- Detecting C compiler ABI info - done
+[1.088s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.088s] -- Detecting C compile features
+[1.088s] -- Detecting C compile features - done
+[1.171s] -- Detecting CXX compiler ABI info
+[1.445s] -- Detecting CXX compiler ABI info - done
+[1.463s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.464s] -- Detecting CXX compile features
+[1.465s] -- Detecting CXX compile features - done
+[1.472s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.763s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.023s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.144s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.179s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.568s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.804s] -- Configuring done (2.7s)
+[2.811s] -- Generating done (0.0s)
+[2.840s] -- Build files have been written to: /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization
+[2.863s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_localization -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization
+[2.865s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[2.967s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[2.969s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization
+[2.976s] -- Install configuration: ""
+[2.976s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/launch
+[2.977s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/launch/local_localization.launch.py
+[2.977s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/config
+[2.977s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/config/ekf.yaml
+[2.978s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/package_run_dependencies/rmitbot_localization
+[2.978s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/parent_prefix_path/rmitbot_localization
+[2.978s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/ament_prefix_path.sh
+[2.979s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/ament_prefix_path.dsv
+[2.979s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/path.sh
+[2.979s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/path.dsv
+[2.979s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.bash
+[2.980s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.sh
+[2.980s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.zsh
+[2.980s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.dsv
+[2.980s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.dsv
+[2.980s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/packages/rmitbot_localization
+[2.981s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/cmake/rmitbot_localizationConfig.cmake
+[2.981s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/cmake/rmitbot_localizationConfig-version.cmake
+[2.981s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.xml
+[2.986s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization

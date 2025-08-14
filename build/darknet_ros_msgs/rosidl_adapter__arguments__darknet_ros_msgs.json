@@ -1,0 +1,9 @@
+{
+  "package_name": "darknet_ros_msgs",
+  "non_idl_tuples": [
+    "/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs:msg/BoundingBox.msg",
+    "/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs:msg/BoundingBoxes.msg",
+    "/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs:msg/ObjectCount.msg",
+    "/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs:action/CheckForObjects.action"
+  ]
+}

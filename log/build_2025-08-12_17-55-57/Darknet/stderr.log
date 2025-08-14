@@ -1,0 +1,481 @@
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K draw_detections_cv_v3[m[K(void**, detection*, int, float, char**, image**, int, int)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:946:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Krgb[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  946 |                 float [01;35m[Krgb[m[K[3];
+      |                       [01;35m[K^~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K draw_train_loss[m[K(char*, void**, int, float, float, int, int, float, int, char*, float, int, int, double)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1147:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+ 1147 |             [01;35m[Kif[m[K (iteration_old == 0)
+      |             [01;35m[K^~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1150:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+ 1150 |                 [01;36m[Kif[m[K (iteration_old != 0){
+      |                 [01;36m[K^~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K cv_draw_object[m[K(image, float*, int, int, int*, float*, int*, int, char**)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1444:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbuff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1444 |         char [01;35m[Kbuff[m[K[100];
+      |              [01;35m[K^~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1420:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kit_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1420 |     int [01;35m[Kit_tb_res[m[K = cv::createTrackbar(it_trackbar_name, window_name, &it_trackbar_value, 1000);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1424:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klr_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1424 |     int [01;35m[Klr_tb_res[m[K = cv::createTrackbar(lr_trackbar_name, window_name, &lr_trackbar_value, 20);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1428:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcl_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1428 |     int [01;35m[Kcl_tb_res[m[K = cv::createTrackbar(cl_trackbar_name, window_name, &cl_trackbar_value, classes-1);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1431:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbo_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1431 |     int [01;35m[Kbo_tb_res[m[K = cv::createTrackbar(bo_trackbar_name, window_name, boxonly, 1);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K At global scope:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:450:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat[01;32m[K get_pixel[m[K(image, int, int, int)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  450 | static float [01;35m[Kget_pixel[m[K(image m, int x, int y, int c)
+      |              [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:[m[K In function ‘[01m[Kactivate[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KRELU6[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   79 |     [01;35m[Kswitch[m[K(a){
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSWISH[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMISH[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KHARD_MISH[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNORM_CHAN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNORM_CHAN_SOFTMAX[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:79:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KNORM_CHAN_SOFTMAX_MAXVAL[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:[m[K In function ‘[01m[Kgradient[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:310:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KSWISH[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  310 |     [01;35m[Kswitch[m[K(a){
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:310:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMISH[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/activations.c:310:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KHARD_MISH[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kbackward_shortcut_multilayer_cpu[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:207:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kout_index[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  207 |                 int [01;35m[Kout_index[m[K = id;
+      |                     [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_sim[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:597:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  597 |         printf(" Error: find_sim(): sim isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", [32m[Ki[m[K, j, z);
+      |                                                          [01;35m[K~^[m[K                      [32m[K~[m[K
+      |                                                           [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                                           [01;35m[Kint[m[K                    [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                          [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:597:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  597 |   printf(" Error: find_sim(): sim isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, [32m[Kj[m[K, z);
+      |                                                            [01;35m[K~^[m[K                 [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K               [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:597:75:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  597 | (" Error: find_sim(): sim isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, [32m[Kz[m[K);
+      |                                                            [01;35m[K~^[m[K            [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K            [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K          [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_P_constrastive[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:611:68:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  611 |  printf(" Error: find_P_constrastive(): P isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", [32m[Ki[m[K, j, z);
+      |                                                            [01;35m[K~^[m[K                      [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K                    [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:611:76:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  611 | " Error: find_P_constrastive(): P isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, [32m[Kj[m[K, z);
+      |                                                            [01;35m[K~^[m[K                 [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K               [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:611:84:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  611 |  find_P_constrastive(): P isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, [32m[Kz[m[K);
+      |                                                            [01;35m[K~^[m[K            [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K            [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K          [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive_f[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:651:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  651 | derr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", [32m[Ki[m[K, l);
+      |                                                            [01;35m[K~^[m[K              [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K              [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K            [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:651:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  651 | Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, [32m[Kl[m[K);
+      |                                                            [01;35m[K~^[m[K         [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K         [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K       [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:785:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  785 | derr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", [32m[Ki[m[K, l);
+      |                                                            [01;35m[K~^[m[K              [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K              [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K            [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:785:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  785 | Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, [32m[Kl[m[K);
+      |                                                            [01;35m[K~^[m[K         [32m[K~[m[K
+      |                                                             [01;35m[K|[m[K         [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K       [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                            [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/box.c:[m[K In function ‘[01m[Kbox_iou_kind[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/box.c:154:5:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KMSE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+  154 |     [01;35m[Kswitch[m[K(iou_kind) {
+      |     [01;35m[K^~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/box.c:[m[K In function ‘[01m[Kdiounms_sort[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/box.c:898:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeta_prob[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  898 |                     float [01;35m[Kbeta_prob[m[K = pow(dets[j].prob[k], 2) / sum_prob;
+      |                           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/box.c:897:27:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha_prob[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  897 |                     float [01;35m[Kalpha_prob[m[K = pow(dets[i].prob[k], 2) / sum_prob;
+      |                           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/captcha.c:[m[K In function ‘[01m[Ktest_captcha[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/captcha.c:113:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+  113 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:[m[K In function ‘[01m[Ktrain_classifier[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:146:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  146 |     int [01;35m[Kcount[m[K = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:[m[K In function ‘[01m[Kpredict_classifier[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:855:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  855 |     clock_t [01;35m[Ktime[m[K;
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:[m[K In function ‘[01m[Kdemo_classifier[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:1287:49:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktval_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1287 |         struct timeval tval_before, tval_after, [01;35m[Ktval_result[m[K;
+      |                                                 [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:1287:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktval_after[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1287 |         struct timeval tval_before, [01;35m[Ktval_after[m[K, tval_result;
+      |                                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:[m[K In function ‘[01m[Ktry_classifier[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:766:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+  766 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:[m[K In function ‘[01m[Kpredict_classifier[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/classifier.c:862:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+  862 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/coco.c:[m[K In function ‘[01m[Kvalidate_coco_recall[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/coco.c:248:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbase[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  248 |     char *[01;35m[Kbase[m[K = "results/comp4_det_test_";
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/coco.c:[m[K In function ‘[01m[Ktest_coco[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/coco.c:356:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+  356 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/convolutional_layer.c:[m[K In function ‘[01m[Kresize_convolutional_layer[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/convolutional_layer.c:898:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kold_h[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  898 |     int [01;35m[Kold_h[m[K = l->h;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/convolutional_layer.c:897:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kold_w[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  897 |     int [01;35m[Kold_w[m[K = l->w;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/convolutional_layer.c:[m[K In function ‘[01m[Kforward_convolutional_layer[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/convolutional_layer.c:1342:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_intput_size[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1342 |                         size_t [01;35m[Kt_intput_size[m[K = binary_transpose_align_input(k, n, state.workspace, &l.t_bit_input, ldb_align, l.bit_align);
+      |                                [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kload_data_detection[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:1297:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1297 |                 int k, [01;35m[Kx[m[K, y;
+      |                        [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:1090:43:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kr_scale[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 1090 |     float r1 = 0, r2 = 0, r3 = 0, r4 = 0, [01;35m[Kr_scale[m[K = 0;
+      |                                           [01;35m[K^~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kfill_truth_detection[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:440:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+  440 |             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: w = %f\" >> bad_label.list", [32m[Klabelpath[m[K, w);
+      |                                 [01;35m[K^~[m[K                                                  [32m[K~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:440:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+  440 |             sprintf(buff, [01;36m[K"echo %s \"Wrong annotation: w = %f\" >> bad_label.list"[m[K, labelpath, w);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:980[m[K,
+                 from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/darknet.h:13[m[K,
+                 from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.h:5[m[K,
+                 from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:1[m[K:
+In function ‘[01m[Ksprintf[m[K’,
+    inlined from ‘[01m[Kfill_truth_detection[m[K’ at [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:440:13[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 52 and 4461 bytes into a destination of size 256
+   30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kfill_truth_detection[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:447:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+  447 |             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: h = %f\" >> bad_label.list", [32m[Klabelpath[m[K, h);
+      |                                 [01;35m[K^~[m[K                                                  [32m[K~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:447:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+  447 |             sprintf(buff, [01;36m[K"echo %s \"Wrong annotation: h = %f\" >> bad_label.list"[m[K, labelpath, h);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In function ‘[01m[Ksprintf[m[K’,
+    inlined from ‘[01m[Kfill_truth_detection[m[K’ at [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:447:13[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 52 and 4461 bytes into a destination of size 256
+   30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kfill_truth_detection[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:432:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+  432 |             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: x = %f, y = %f\" >> bad_label.list", [32m[Klabelpath[m[K, x, y);
+      |                                 [01;35m[K^~[m[K                                                          [32m[K~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:432:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+  432 |             sprintf(buff, [01;36m[K"echo %s \"Wrong annotation: x = %f, y = %f\" >> bad_label.list"[m[K, labelpath, x, y);
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:432:27:[m[K [01;36m[Knote: [m[Kassuming directive output of 8 bytes
+In function ‘[01m[Ksprintf[m[K’,
+    inlined from ‘[01m[Kfill_truth_detection[m[K’ at [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:432:13[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 61 and 4784 bytes into a destination of size 256
+   30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kfill_truth_detection[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:424:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+  424 |             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: x = 0 or y = 0\" >> bad_label.list", [32m[Klabelpath[m[K);
+      |                                 [01;35m[K^~[m[K                                                          [32m[K~~~~~~~~~[m[K
+In function ‘[01m[Ksprintf[m[K’,
+    inlined from ‘[01m[Kfill_truth_detection[m[K’ at [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:424:13[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 59 and 4154 bytes into a destination of size 256
+   30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:[m[K In function ‘[01m[Kfill_truth_detection[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:410:33:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive writing up to 4095 bytes into a region of size 251 [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-overflow=-Wformat-overflow=]8;;[m[K]
+  410 |             sprintf(buff, "echo [01;35m[K%s[m[K \"Wrong annotation: class_id = %d. But class_id should be [from 0 to %d]\" >> bad_label.list", [32m[Klabelpath[m[K, id, (classes-1));
+      |                                 [01;35m[K^~[m[K                                                                                                [32m[K~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:410:27:[m[K [01;36m[Knote: [m[Kdirective argument in the range [-2147483648, 2147483646]
+  410 |             sprintf(buff, [01;36m[K"echo %s \"Wrong annotation: class_id = %d. But class_id should be [from 0 to %d]\" >> bad_label.list"[m[K, labelpath, id, (classes-1));
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In function ‘[01m[Ksprintf[m[K’,
+    inlined from ‘[01m[Kfill_truth_detection[m[K’ at [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/data.c:410:13[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/stdio2.h:30:10:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___sprintf_chk[m[K’ output between 95 and 4210 bytes into a destination of size 256
+   30 |   return [01;36m[K__builtin___sprintf_chk (__s, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   31 | [01;36m[K                                  __glibc_objsize (__s), __fmt,[m[K
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   32 | [01;36m[K                                  __va_arg_pack ())[m[K;
+      |                                   [01;36m[K~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/demo.c:[m[K In function ‘[01m[Kdetect_in_thread[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/demo.c:101:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kl[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  101 |         layer [01;35m[Kl[m[K = net.layers[net.n - 1];
+      |               [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Ktrain_detector[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:395:72:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+  395 |  [01;35m[K(iteration >= (iter_save + 1000) || iteration % 1000 == 0) && net.max_batches < 10000[m[K)
+      |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Keliminate_bdd[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:588:21:[m[K [01;35m[Kwarning: [m[Kstatement with no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  588 |                     [01;35m[Kfor[m[K (k; buf[k + n] != '\0'; k++)
+      |                     [01;35m[K^~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Kvalidate_detector[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:709:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmkd2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  709 |         int [01;35m[Kmkd2[m[K = make_directory(buff2, 0777);
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:707:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmkd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  707 |         int [01;35m[Kmkd[m[K = make_directory(buff, 0777);
+      |             [01;35m[K^~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Kvalidate_detector_map[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:1326:24:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcur_prob[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+ 1326 |                 double [01;35m[Kcur_prob[m[K = 0;
+      |                        [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:1347:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kclass_recall[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1347 |         float [01;35m[Kclass_recall[m[K = (float)tp_for_thresh_per_class[i] / ((float)tp_for_thresh_per_class[i] + (float)(truth_classes_count[i] - tp_for_thresh_per_class[i]));
+      |               [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:1346:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kclass_precision[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1346 |         float [01;35m[Kclass_precision[m[K = (float)tp_for_thresh_per_class[i] / ((float)tp_for_thresh_per_class[i] + (float)fp_for_thresh_per_class[i]);
+      |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:[m[K At top level:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:461:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kget_coco_image_id[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  461 | static int [01;35m[Kget_coco_image_id[m[K(char *filename)
+      |            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:[m[K In function ‘[01m[Ktest_detector[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/detector.c:1666:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+ 1666 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/dice.c:[m[K In function ‘[01m[Ktest_dice[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/dice.c:83:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+   83 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/gemm.c:[m[K In function ‘[01m[Kconvolution_2d[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/gemm.c:2044:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kout_w[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 2044 |     const int [01;35m[Kout_w[m[K = (w + 2 * pad - ksize) / stride + 1;    // output_width=input_width for stride=1 and pad=1
+      |               [01;35m[K^~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/gemm.c:2043:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kout_h[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 2043 |     const int [01;35m[Kout_h[m[K = (h + 2 * pad - ksize) / stride + 1;    // output_height=input_height for stride=1 and pad=1
+      |               [01;35m[K^~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/network.c:[m[K In function ‘[01m[Ktrain_network_waitkey[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/network.c:435:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kema_period[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  435 |         int [01;35m[Kema_period[m[K = (net.max_batches - ema_start_point - 1000) * (1.0 - net.ema_alpha);
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/network.c:[m[K At top level:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/network.c:1269:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Krelu[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+ 1269 | static float [01;35m[Krelu[m[K(float src) {
+      |              [01;35m[K^~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/parser.c:[m[K In function ‘[01m[Ksave_implicit_weights[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/parser.c:1909:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1909 |     int [01;35m[Ki[m[K;
+      |         [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/shortcut_layer.c:[m[K In function ‘[01m[Kmake_shortcut_layer[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/shortcut_layer.c:55:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kscale[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   55 |         float [01;35m[Kscale[m[K = sqrt(2. / l.nweights);
+      |               [01;35m[K^~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/softmax_layer.c:[m[K In function ‘[01m[Kmake_contrastive_layer[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/softmax_layer.c:203:101:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  203 | d x%4d x emb_size %4d x batch: %4d  classes = %4d, step = [01;35m[K%4d[m[K \n", w, h, l.n, l.embedding_size, batch, l.classes, [32m[Kstep[m[K);
+      |                                                           [01;35m[K~~^[m[K                                                     [32m[K~~~~[m[K
+      |                                                             [01;35m[K|[m[K                                                     [32m[K|[m[K
+      |                                                             [01;35m[Kint[m[K                                                   [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                           [32m[K%4ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/softmax_layer.c:[m[K In function ‘[01m[Kforward_contrastive_layer[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/softmax_layer.c:244:27:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmax_truth[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  244 |                     float [01;35m[Kmax_truth[m[K = 0;
+      |                           [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/super.c:[m[K In function ‘[01m[Ktest_super[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/super.c:88:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+   88 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/tag.c:[m[K In function ‘[01m[Ktest_tag[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/tag.c:109:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+  109 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/utils.c:[m[K In function ‘[01m[Kcustom_hash[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/utils.c:1061:12:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+ 1061 |     while ([01;35m[Kc[m[K = *str++)
+      |            [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/voxel.c:[m[K In function ‘[01m[Ktest_voxel[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/voxel.c:123:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+  123 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/writing.c:[m[K In function ‘[01m[Ktest_writing[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/writing.c:97:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+   97 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo.c:[m[K In function ‘[01m[Ktest_yolo[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo.c:308:13:[m[K [01;35m[Kwarning: [m[K‘[01m[K__builtin_strncpy[m[K’ specified bound 256 equals destination size [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+  308 |             [01;35m[Ks[m[Ktrncpy(input, filename, 256);
+      |             [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kprocess_batch[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:426:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbest_match_t[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  426 |                     int [01;35m[Kbest_match_t[m[K = 0;
+      |                         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:[m[K In function ‘[01m[Kforward_yolo_layer[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:707:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavg_anyobj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  707 |     float [01;35m[Kavg_anyobj[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:706:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavg_obj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  706 |     float [01;35m[Kavg_obj[m[K = 0;
+      |           [01;35m[K^~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:705:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kavg_cat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  705 |     float [01;35m[Kavg_cat[m[K = 0;
+      |           [01;35m[K^~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:704:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krecall75[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  704 |     float [01;35m[Krecall75[m[K = 0;
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:703:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krecall[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  703 |     float [01;35m[Krecall[m[K = 0;
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:702:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktot_ciou_loss[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  702 |     float [01;35m[Ktot_ciou_loss[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:701:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktot_diou_loss[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  701 |     float [01;35m[Ktot_diou_loss[m[K = 0;
+      |           [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:698:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktot_ciou[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  698 |     float [01;35m[Ktot_ciou[m[K = 0;
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:697:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktot_diou[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  697 |     float [01;35m[Ktot_diou[m[K = 0;
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_layer.c:696:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktot_giou[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  696 |     float [01;35m[Ktot_giou[m[K = 0;
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:[m[K In member function ‘[01m[Kbool JSON_sender::[01;32m[Kwrite[m[K(const char*)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:253:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  253 |                 int [01;35m[Kn[m[K = _write(client, outputbuf, outlen);
+      |                     [01;35m[K^[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:[m[K In member function ‘[01m[Kbool MJPG_sender::[01;32m[Kwrite[m[K(const cv::Mat&)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:511:95:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%zu[m[K’ expects argument of type ‘[01m[Ksize_t[m[K’, but argument 3 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  511 | jpegstream\r\nContent-Type: image/jpeg\r\nContent-Length: [01;35m[K%zu[m[K\r\n\r\n", [32m[Koutlen[m[K);
+      |                                                           [01;35m[K~~^[m[K           [32m[K~~~~~~[m[K
+      |                                                             [01;35m[K|[m[K           [32m[K|[m[K
+      |                                                             [01;35m[K|[m[K           [32m[Kint[m[K
+      |                                                             [01;35m[Klong unsigned int[m[K
+      |                                                           [32m[K%u[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K set_track_id[m[K(detection*, int, float, float, float, int, int, int)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:867:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<detection_t>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  867 |         for (int i = 0; [01;35m[Ki < v.size()[m[K; ++i) {
+      |                         [01;35m[K~~^~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:875:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<detection_t>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  875 |     for (int old_id = 0; [01;35m[Kold_id < old_dets.size()[m[K; ++old_id) {
+      |                          [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:894:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<detection_t>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  894 |     for (int index = 0; [01;35m[Kindex < new_dets_num*old_dets.size()[m[K; ++index) {
+      |                         [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/http_stream.cpp:930:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<std::vector<detection_t> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  930 |     if ([01;35m[Kold_dets_dq.size() > deque_size[m[K) old_dets_dq.pop_front();
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K draw_detections_cv_v3[m[K(void**, detection*, int, float, char**, image**, int, int)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:946:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Krgb[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  946 |                 float [01;35m[Krgb[m[K[3];
+      |                       [01;35m[K^~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K draw_train_loss[m[K(char*, void**, int, float, float, int, int, float, int, char*, float, int, int, double)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1147:13:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+ 1147 |             [01;35m[Kif[m[K (iteration_old == 0)
+      |             [01;35m[K^~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1150:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+ 1150 |                 [01;36m[Kif[m[K (iteration_old != 0){
+      |                 [01;36m[K^~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K cv_draw_object[m[K(image, float*, int, int, int*, float*, int*, int, char**)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1444:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbuff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1444 |         char [01;35m[Kbuff[m[K[100];
+      |              [01;35m[K^~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1420:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kit_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1420 |     int [01;35m[Kit_tb_res[m[K = cv::createTrackbar(it_trackbar_name, window_name, &it_trackbar_value, 1000);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1424:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klr_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1424 |     int [01;35m[Klr_tb_res[m[K = cv::createTrackbar(lr_trackbar_name, window_name, &lr_trackbar_value, 20);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1428:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcl_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1428 |     int [01;35m[Kcl_tb_res[m[K = cv::createTrackbar(cl_trackbar_name, window_name, &cl_trackbar_value, classes-1);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:1431:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbo_tb_res[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1431 |     int [01;35m[Kbo_tb_res[m[K = cv::createTrackbar(bo_trackbar_name, window_name, boxonly, 1);
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:[m[K At global scope:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/image_opencv.cpp:450:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kfloat[01;32m[K get_pixel[m[K(image, int, int, int)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  450 | static float [01;35m[Kget_pixel[m[K(image m, int x, int y, int c)
+      |              [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_console_dll.cpp:23[m[K:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:[m[K In member function ‘[01m[Kvoid track_kalman_t::[01;32m[Kclear_old_states[m[K()[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:879:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  879 |                 if ((result_vec_pred[state_id].x > img_size.width) ||
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:880:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  880 |                     (result_vec_pred[state_id].y > img_size.height))
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:[m[K In member function ‘[01m[Ktrack_kalman_t::tst_t track_kalman_t::[01;32m[Kget_state_id[m[K(bbox_t, std::vector<bool>&)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:900:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  900 |         for (size_t i = 0; [01;35m[Ki < max_objects[m[K; ++i)
+      |                            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:[m[K In member function ‘[01m[Kstd::vector<bbox_t> track_kalman_t::[01;32m[Kpredict[m[K()[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:990:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  990 |         for (size_t i = 0; [01;35m[Ki < max_objects[m[K; ++i)
+      |                            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:[m[K In member function ‘[01m[Kstd::vector<bbox_t> track_kalman_t::[01;32m[Kcorrect[m[K(std::vector<bbox_t>)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/include/yolo_v2_class.hpp:1025:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1025 |         for (size_t i = 0; [01;35m[Ki < max_objects[m[K; ++i)
+      |                            [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_console_dll.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K draw_boxes[m[K(cv::Mat, std::vector<bbox_t>, std::vector<std::__cxx11::basic_string<char> >, int, int)[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_console_dll.cpp:192:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  192 |             int max_width = ([01;35m[Ktext_size.width > i.w + 2[m[K) ? text_size.width : (i.w + 2);
+      |                              [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_console_dll.cpp:201:62:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  201 |                int const max_width_3d = ([01;35m[Ktext_size_3d.width > i.w + 2[m[K) ? text_size_3d.width : (i.w + 2);
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/yolo_console_dll.cpp:183:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcolors[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  183 |     int const [01;35m[Kcolors[m[K[6][3] = { { 1,0,1 },{ 0,0,1 },{ 0,1,1 },{ 0,1,0 },{ 1,1,0 },{ 1,0,0 } };
+      |               [01;35m[K^~~~~~[m[K

@@ -1,0 +1,37 @@
+[0.044s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_detection': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_detection
+[0.456s] -- The C compiler identification is GNU 13.3.0
+[1.124s] -- The CXX compiler identification is GNU 13.3.0
+[1.244s] -- Detecting C compiler ABI info
+[1.597s] -- Detecting C compiler ABI info - done
+[1.625s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.626s] -- Detecting C compile features
+[1.637s] -- Detecting C compile features - done
+[1.688s] -- Detecting CXX compiler ABI info
+[2.419s] -- Detecting CXX compiler ABI info - done
+[2.489s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.489s] -- Detecting CXX compile features
+[2.509s] -- Detecting CXX compile features - done
+[2.589s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.382s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.946s] [0mCMake Error: File /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control/package.xml does not exist.[0m
+[3.949s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[3.950s]   configure_file Problem configuring file
+[3.950s] Call Stack (most recent call first):
+[3.950s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[3.950s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.950s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[3.950s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[3.950s]   CMakeLists.txt:10 (ament_python_install_package)
+[3.950s] 
+[3.950s] [0m
+[3.950s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[3.950s]   ament_python_install_package() the Python package folder
+[3.950s]   '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control/stop_sign_detection'
+[3.950s]   doesn't contain an '__init__.py' file
+[3.950s] Call Stack (most recent call first):
+[3.956s]   /opt/ros/jazzy/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[3.956s]   CMakeLists.txt:10 (ament_python_install_package)
+[3.956s] 
+[3.956s] [0m
+[3.956s] -- Configuring incomplete, errors occurred!
+[3.985s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_detection' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_detection

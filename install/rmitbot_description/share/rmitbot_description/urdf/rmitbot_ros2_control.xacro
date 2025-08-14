@@ -8,9 +8,23 @@
     <ros2_control name="RobotSystem" type="system">
 
         <!-- ros2_control Gazebo -->
-        <hardware>
+
+        <xacro:if value="$(arg is_sim)">
+            <hardware>
+                <plugin>gz_ros2_control/GazeboSimSystem</plugin>
+            </hardware>
+        </xacro:if>
+        <!-- <hardware>
             <plugin>gz_ros2_control/GazeboSimSystem</plugin>
-        </hardware>
+        </hardware> -->
+
+                <!-- ros2_control Real Robot -->
+        <xacro:unless value="$(arg is_sim)">
+            <hardware>
+                <plugin>rmitbot_firmware/RmitbotInterface</plugin>
+                <param name="port">/dev/ttyUSB0</param>
+            </hardware>
+        </xacro:unless>
 
         <!-- ros2_control Common Interfaces -->
         <joint name="front_left_wheel_joint">

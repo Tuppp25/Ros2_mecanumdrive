@@ -1,0 +1,7 @@
+[  1%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o[0m
+[  2%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/art.c.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/src/yolo_object_detector_node.cpp.o[0m
+[  5%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/avgpool_layer.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/batchnorm_layer.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/box.c.o[0m

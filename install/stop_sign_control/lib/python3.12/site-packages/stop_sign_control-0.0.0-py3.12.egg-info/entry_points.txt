@@ -1,0 +1,2 @@
+[console_scripts]
+stop_sign_detection = stop_sign_control.stop_sign_detection:main

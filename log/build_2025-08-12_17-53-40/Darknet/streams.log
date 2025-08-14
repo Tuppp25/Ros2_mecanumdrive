@@ -1,0 +1,32 @@
+[0.064s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/Darknet
+[0.216s] [0mDarknet_VERSION: 0.2.5.4[0m
+[0.219s] [33mCMake Warning at CMakeLists.txt:105 (message):
+[0.219s]   vcpkg not found, toolchain not defined, system not win32 so build might
+[0.220s]   fail
+[0.220s] 
+[0.220s] [0m
+[0.609s] -- The C compiler identification is GNU 13.3.0
+[1.076s] -- The CXX compiler identification is GNU 13.3.0
+[1.165s] -- Detecting C compiler ABI info
+[1.506s] -- Detecting C compiler ABI info - done
+[1.529s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.534s] -- Detecting C compile features
+[1.538s] -- Detecting C compile features - done
+[1.568s] -- Detecting CXX compiler ABI info
+[1.950s] -- Detecting CXX compiler ABI info - done
+[2.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.016s] -- Detecting CXX compile features
+[2.016s] -- Detecting CXX compile features - done
+[2.017s] -- Setting build type to 'Release' as none was specified.
+[2.031s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.383s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.392s] -- Found Threads: TRUE  
+[2.446s] -- Found OpenCV: /usr (found version "4.6.0") 
+[2.451s] -- Found Stb: /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/3rdparty/stb/include  
+[2.937s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[3.121s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[3.125s] -- Found OpenMP: TRUE (found version "4.5")  
+[3.126s] -- ZED SDK not enabled, since it requires CUDA
+[3.142s] -- Configuring done (3.0s)
+[3.258s] -- Generating done (0.1s)
+[3.267s] -- Build files have been written to: /home/ngan/Documents/test_github/lesson6_ws/build/Darknet

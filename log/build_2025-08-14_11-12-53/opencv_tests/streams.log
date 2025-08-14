@@ -1,0 +1,23 @@
+[6.297s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/opencv_tests': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/opencv_tests build --build-base /home/ngan/Documents/test_github/lesson6_ws/build/opencv_tests/build install --record /home/ngan/Documents/test_github/lesson6_ws/build/opencv_tests/install.log --single-version-externally-managed install_data
+[7.675s] running egg_info
+[7.724s] writing ../../../../build/opencv_tests/opencv_tests.egg-info/PKG-INFO
+[7.726s] writing dependency_links to ../../../../build/opencv_tests/opencv_tests.egg-info/dependency_links.txt
+[7.727s] writing entry points to ../../../../build/opencv_tests/opencv_tests.egg-info/entry_points.txt
+[7.727s] writing requirements to ../../../../build/opencv_tests/opencv_tests.egg-info/requires.txt
+[7.729s] writing top-level names to ../../../../build/opencv_tests/opencv_tests.egg-info/top_level.txt
+[7.815s] reading manifest file '../../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[7.818s] writing manifest file '../../../../build/opencv_tests/opencv_tests.egg-info/SOURCES.txt'
+[7.819s] running build
+[7.819s] running build_py
+[7.820s] running install
+[7.844s] running install_lib
+[7.891s] running install_data
+[7.891s] running install_egg_info
+[7.924s] removing '/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests/lib/python3.12/site-packages/opencv_tests-3.0.7-py3.12.egg-info' (and everything under it)
+[7.925s] Copying ../../../../build/opencv_tests/opencv_tests.egg-info to /home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests/lib/python3.12/site-packages/opencv_tests-3.0.7-py3.12.egg-info
+[7.944s] running install_scripts
+[8.418s] Installing broadcast script to /home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests/lib/opencv_tests
+[8.419s] Installing rosfacedetect script to /home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests/lib/opencv_tests
+[8.420s] Installing source script to /home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests/lib/opencv_tests
+[8.422s] writing list of installed files to '/home/ngan/Documents/test_github/lesson6_ws/build/opencv_tests/install.log'
+[8.580s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/build/opencv_tests/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/opencv_tests build --build-base /home/ngan/Documents/test_github/lesson6_ws/build/opencv_tests/build install --record /home/ngan/Documents/test_github/lesson6_ws/build/opencv_tests/install.log --single-version-externally-managed install_data

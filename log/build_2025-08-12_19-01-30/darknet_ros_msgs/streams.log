@@ -1,0 +1,26 @@
+[0.038s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs -- -j4 -l4
+[0.267s] [  1%] Built target darknet_ros_msgs__rosidl_generator_type_description
+[0.324s] [  1%] Built target ament_cmake_python_copy_darknet_ros_msgs
+[0.364s] [  3%] Built target darknet_ros_msgs__cpp
+[1.418s] running egg_info
+[1.545s] writing darknet_ros_msgs.egg-info/PKG-INFO
+[1.545s] writing dependency_links to darknet_ros_msgs.egg-info/dependency_links.txt
+[1.545s] writing top-level names to darknet_ros_msgs.egg-info/top_level.txt
+[1.791s] reading manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'
+[1.793s] writing manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'
+[1.847s] [  3%] Built target ament_cmake_python_build_darknet_ros_msgs_egg
+[1.896s] [ 25%] Built target darknet_ros_msgs__rosidl_generator_c
+[1.941s] [ 34%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c
+[2.012s] [ 43%] Built target darknet_ros_msgs__rosidl_typesupport_c
+[2.092s] [ 53%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_cpp
+[2.149s] [ 62%] Built target darknet_ros_msgs__rosidl_typesupport_cpp
+[2.274s] [ 71%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c
+[2.358s] [ 81%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[2.395s] [ 81%] Built target darknet_ros_msgs
+[2.436s] [ 82%] Built target darknet_ros_msgs__py
+[2.474s] [ 90%] Built target darknet_ros_msgs__rosidl_generator_py
+[2.513s] [ 93%] Built target darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[2.571s] [ 96%] Built target darknet_ros_msgs_s__rosidl_typesupport_c
+[2.614s] [100%] Built target darknet_ros_msgs_s__rosidl_typesupport_introspection_c
+[2.799s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs -- -j4 -l4
+[2.799s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs

@@ -1,5 +1,6 @@
 /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/launch/simrobot.launch.py
 /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/launch/realrobot.launch.py
+/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/launch/stop_sign_detection.launch.py
 /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/ament_index/resource_index/package_run_dependencies/rmitbot_bringup
 /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/ament_index/resource_index/parent_prefix_path/rmitbot_bringup
 /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/environment/ament_prefix_path.sh

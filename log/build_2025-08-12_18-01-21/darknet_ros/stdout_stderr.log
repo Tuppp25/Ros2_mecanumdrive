@@ -1,0 +1,86 @@
+[  1%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o[0m
+[  2%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/art.c.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/darknet_ros_lib.dir/src/yolo_object_detector_node.cpp.o[0m
+[  5%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/avgpool_layer.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/batchnorm_layer.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c.o[0m
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_sim[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:597:59:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  597 |         printf(" Error: find_sim(): sim isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", [32m[Ki[m[K, j, z);
+      |                                                          [01;35m[K~^[m[K                      [32m[K~[m[K
+      |                                                           [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                                           [01;35m[Kint[m[K                    [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                          [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:597:67:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  597 |         printf(" Error: find_sim(): sim isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, [32m[Kj[m[K, z);
+      |                                                                  [01;35m[K~^[m[K                 [32m[K~[m[K
+      |                                                                   [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                   [01;35m[Kint[m[K               [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                  [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:597:75:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  597 |         printf(" Error: find_sim(): sim isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, [32m[Kz[m[K);
+      |                                                                          [01;35m[K~^[m[K            [32m[K~[m[K
+      |                                                                           [01;35m[K|[m[K            [32m[K|[m[K
+      |                                                                           [01;35m[Kint[m[K          [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                          [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[Kfind_P_constrastive[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:611:68:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  611 |         printf(" Error: find_P_constrastive(): P isn't found: i = [01;35m[K%d[m[K, j = %d, z = %d \n", [32m[Ki[m[K, j, z);
+      |                                                                   [01;35m[K~^[m[K                      [32m[K~[m[K
+      |                                                                    [01;35m[K|[m[K                      [32m[K|[m[K
+      |                                                                    [01;35m[Kint[m[K                    [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                   [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:611:76:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  611 |         printf(" Error: find_P_constrastive(): P isn't found: i = %d, j = [01;35m[K%d[m[K, z = %d \n", i, [32m[Kj[m[K, z);
+      |                                                                           [01;35m[K~^[m[K                 [32m[K~[m[K
+      |                                                                            [01;35m[K|[m[K                 [32m[K|[m[K
+      |                                                                            [01;35m[Kint[m[K               [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                           [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:611:84:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  611 |         printf(" Error: find_P_constrastive(): P isn't found: i = %d, j = %d, z = [01;35m[K%d[m[K \n", i, j, [32m[Kz[m[K);
+      |                                                                                   [01;35m[K~^[m[K            [32m[K~[m[K
+      |                                                                                    [01;35m[K|[m[K            [32m[K|[m[K
+      |                                                                                    [01;35m[Kint[m[K          [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                                   [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive_f[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:651:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  651 |         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", [32m[Ki[m[K, l);
+      |                                                                              [01;35m[K~^[m[K              [32m[K~[m[K
+      |                                                                               [01;35m[K|[m[K              [32m[K|[m[K
+      |                                                                               [01;35m[Kint[m[K            [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                              [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:651:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  651 |         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, [32m[Kl[m[K);
+      |                                                                                      [01;35m[K~^[m[K         [32m[K~[m[K
+      |                                                                                       [01;35m[K|[m[K         [32m[K|[m[K
+      |                                                                                       [01;35m[Kint[m[K       [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                                      [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:[m[K In function ‘[01m[KP_constrastive[m[K’:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:785:79:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  785 |         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = [01;35m[K%d[m[K, l = %d \n", [32m[Ki[m[K, l);
+      |                                                                              [01;35m[K~^[m[K              [32m[K~[m[K
+      |                                                                               [01;35m[K|[m[K              [32m[K|[m[K
+      |                                                                               [01;35m[Kint[m[K            [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                              [32m[K%ld[m[K
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/blas.c:785:87:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 4 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  785 |         fprintf(stderr, " Error: in P_constrastive must be i != l, while i = %d, l = [01;35m[K%d[m[K \n", i, [32m[Kl[m[K);
+      |                                                                                      [01;35m[K~^[m[K         [32m[K~[m[K
+      |                                                                                       [01;35m[K|[m[K         [32m[K|[m[K
+      |                                                                                       [01;35m[Kint[m[K       [32m[Ksize_t {aka long unsigned int}[m[K
+      |                                                                                      [32m[K%ld[m[K
+[  8%] [32mBuilding C object CMakeFiles/darknet_ros_lib.dir/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/src/box.c.o[0m
+In file included from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:9[m[K:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+   36 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/darknet_ros_lib.dir/build.make:104: CMakeFiles/darknet_ros_lib.dir/src/yolo_object_detector_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/src/YoloObjectDetector.cpp:10[m[K:
+[01m[K/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros/include/darknet_ros/YoloObjectDetector.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+   36 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/darknet_ros_lib.dir/build.make:76: CMakeFiles/darknet_ros_lib.dir/src/YoloObjectDetector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/darknet_ros_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

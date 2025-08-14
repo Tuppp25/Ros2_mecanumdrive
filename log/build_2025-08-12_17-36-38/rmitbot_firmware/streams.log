@@ -1,0 +1,38 @@
+[0.069s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware
+[0.451s] -- The C compiler identification is GNU 13.3.0
+[0.931s] -- The CXX compiler identification is GNU 13.3.0
+[1.062s] -- Detecting C compiler ABI info
+[1.558s] -- Detecting C compiler ABI info - done
+[1.610s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.613s] -- Detecting C compile features
+[1.613s] -- Detecting C compile features - done
+[1.644s] -- Detecting CXX compiler ABI info
+[2.062s] -- Detecting CXX compiler ABI info - done
+[2.092s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.092s] -- Detecting CXX compile features
+[2.092s] -- Detecting CXX compile features - done
+[2.099s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.396s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.601s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.721s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.760s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.073s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.084s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.285s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.321s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.927s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.975s] -- Found hardware_interface: 4.32.0 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[5.382s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[5.384s] -- Checking for module 'libserial'
+[5.441s] --   Found libserial, version 1.0.0
+[5.771s] -- Configuring done (5.6s)
+[5.881s] -- Generating done (0.1s)
+[5.888s] -- Build files have been written to: /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware
+[5.963s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware
+[5.964s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[6.145s] [ 50%] [32mBuilding CXX object CMakeFiles/rmitbot_firmware.dir/src/rmitbot_interface.cpp.o[0m
+[16.029s] [100%] [32m[1mLinking CXX shared library librmitbot_firmware.so[0m
+[16.463s] [100%] Built target rmitbot_firmware
