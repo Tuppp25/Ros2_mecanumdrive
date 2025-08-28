@@ -1,0 +1,51 @@
+[0.067s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/Darknet -- -j4 -l4
+[0.108s] Change Dir: '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.108s] 
+[0.109s] Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile -j4 -l4
+[0.133s] /usr/bin/cmake -S/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet -B/home/ngan/Documents/test_github/lesson6_ws/build/Darknet --check-build-system CMakeFiles/Makefile.cmake 0
+[0.162s] /usr/bin/cmake -E cmake_progress_start /home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles /home/ngan/Documents/test_github/lesson6_ws/build/Darknet//CMakeFiles/progress.marks
+[0.178s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.181s] gmake[1]: Entering directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.181s] /usr/bin/gmake  -f CMakeFiles/dark.dir/build.make CMakeFiles/dark.dir/depend
+[0.207s] gmake[2]: Entering directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.207s] cd /home/ngan/Documents/test_github/lesson6_ws/build/Darknet && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/dark.dir/DependInfo.cmake "--color="
+[0.232s] gmake[2]: Leaving directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.232s] /usr/bin/gmake  -f CMakeFiles/dark.dir/build.make CMakeFiles/dark.dir/build
+[0.252s] gmake[2]: Entering directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.252s] gmake[2]: Nothing to be done for 'CMakeFiles/dark.dir/build'.
+[0.252s] gmake[2]: Leaving directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.266s] [ 49%] Built target dark
+[0.267s] /usr/bin/gmake  -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/depend
+[0.298s] gmake[2]: Entering directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.298s] cd /home/ngan/Documents/test_github/lesson6_ws/build/Darknet && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/darknet.dir/DependInfo.cmake "--color="
+[0.347s] gmake[2]: Leaving directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.347s] /usr/bin/gmake  -f CMakeFiles/darknet.dir/build.make CMakeFiles/darknet.dir/build
+[0.386s] gmake[2]: Entering directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.387s] gmake[2]: Nothing to be done for 'CMakeFiles/darknet.dir/build'.
+[0.387s] gmake[2]: Leaving directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.435s] [ 98%] Built target darknet
+[0.440s] /usr/bin/gmake  -f CMakeFiles/uselib.dir/build.make CMakeFiles/uselib.dir/depend
+[0.448s] gmake[2]: Entering directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.448s] cd /home/ngan/Documents/test_github/lesson6_ws/build/Darknet && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet /home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles/uselib.dir/DependInfo.cmake "--color="
+[0.508s] gmake[2]: Leaving directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.508s] /usr/bin/gmake  -f CMakeFiles/uselib.dir/build.make CMakeFiles/uselib.dir/build
+[0.542s] gmake[2]: Entering directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.550s] gmake[2]: Nothing to be done for 'CMakeFiles/uselib.dir/build'.
+[0.550s] gmake[2]: Leaving directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.570s] [100%] Built target uselib
+[0.570s] gmake[1]: Leaving directory '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet'
+[0.570s] /usr/bin/cmake -E cmake_progress_start /home/ngan/Documents/test_github/lesson6_ws/build/Darknet/CMakeFiles 0
+[0.651s] 
+[0.660s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/Darknet -- -j4 -l4
+[0.681s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/Darknet
+[0.707s] -- Install configuration: "Release"
+[0.707s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/libdarknet.so
+[0.707s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/Darknet/include/darknet/darknet.h
+[0.707s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/Darknet/include/darknet/yolo_v2_class.hpp
+[0.708s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/uselib
+[0.711s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet/darknet
+[0.712s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/darknet/DarknetTargets.cmake
+[0.712s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/darknet/DarknetTargets-release.cmake
+[0.712s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/darknet/DarknetConfig.cmake
+[0.715s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/darknet/DarknetConfigVersion.cmake
+[0.722s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/Darknet

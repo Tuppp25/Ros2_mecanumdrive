@@ -1,0 +1,54 @@
+[0.045s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry -- -j4 -l4
+[0.505s] [ 27%] Built target image_geometry
+[0.510s] [ 45%] Built target gtest
+[0.511s] [ 63%] Built target gtest_main
+[0.531s] [ 63%] Built target ament_cmake_python_copy_image_geometry
+[0.660s] [ 81%] Built target image_geometry-utest-equi
+[0.708s] [100%] Built target image_geometry-utest
+[1.698s] running egg_info
+[1.877s] writing image_geometry.egg-info/PKG-INFO
+[1.877s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[1.878s] writing top-level names to image_geometry.egg-info/top_level.txt
+[2.380s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.401s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.594s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[2.664s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry -- -j4 -l4
+[2.670s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry
+[2.721s] -- Install configuration: ""
+[2.721s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[2.721s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[2.722s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-3.0.7-py3.12.egg-info
+[2.723s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-3.0.7-py3.12.egg-info/SOURCES.txt
+[2.724s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-3.0.7-py3.12.egg-info/dependency_links.txt
+[2.726s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-3.0.7-py3.12.egg-info/PKG-INFO
+[2.727s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry-3.0.7-py3.12.egg-info/top_level.txt
+[2.727s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry
+[2.728s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry/__init__.py
+[2.728s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry/cameramodels.py
+[2.846s] Listing '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages/image_geometry'...
+[2.873s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/include/image_geometry
+[2.874s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[2.874s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/include/image_geometry/visibility_control.hpp
+[2.874s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[2.875s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/libimage_geometry.so
+[2.875s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/library_path.sh
+[2.875s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/library_path.dsv
+[2.875s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[2.876s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[2.877s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[2.877s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[2.877s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[2.877s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[2.878s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[2.878s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[2.878s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[2.879s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[2.879s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.dsv
+[2.889s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[2.889s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[2.889s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.889s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.890s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[2.894s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[2.894s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.xml
+[2.904s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry

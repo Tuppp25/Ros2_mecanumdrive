@@ -1,0 +1,232 @@
+[0.046s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs -- -j4 -l4
+[0.247s] [  1%] Built target darknet_ros_msgs__rosidl_generator_type_description
+[0.315s] [  1%] Built target ament_cmake_python_copy_darknet_ros_msgs
+[0.368s] [  3%] Built target darknet_ros_msgs__cpp
+[1.486s] running egg_info
+[1.527s] writing darknet_ros_msgs.egg-info/PKG-INFO
+[1.529s] writing dependency_links to darknet_ros_msgs.egg-info/dependency_links.txt
+[1.532s] writing top-level names to darknet_ros_msgs.egg-info/top_level.txt
+[1.940s] reading manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'
+[1.940s] writing manifest file 'darknet_ros_msgs.egg-info/SOURCES.txt'
+[2.033s] [  3%] Built target ament_cmake_python_build_darknet_ros_msgs_egg
+[2.166s] [ 25%] Built target darknet_ros_msgs__rosidl_generator_c
+[2.510s] [ 34%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_c
+[2.669s] [ 43%] Built target darknet_ros_msgs__rosidl_typesupport_c
+[3.805s] [ 53%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_cpp
+[4.011s] [ 62%] Built target darknet_ros_msgs__rosidl_typesupport_cpp
+[4.296s] [ 71%] Built target darknet_ros_msgs__rosidl_typesupport_introspection_c
+[4.466s] [ 81%] Built target darknet_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[4.736s] [ 81%] Built target darknet_ros_msgs
+[4.924s] [ 82%] Built target darknet_ros_msgs__py
+[5.200s] [ 90%] Built target darknet_ros_msgs__rosidl_generator_py
+[5.859s] [ 93%] Built target darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[6.160s] [ 96%] Built target darknet_ros_msgs_s__rosidl_typesupport_c
+[6.447s] [100%] Built target darknet_ros_msgs_s__rosidl_typesupport_introspection_c
+[6.570s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs -- -j4 -l4
+[6.570s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs
+[6.690s] -- Install configuration: ""
+[6.691s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/darknet_ros_msgs
+[6.691s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBox.json
+[6.692s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBoxes.json
+[6.692s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/ObjectCount.json
+[6.693s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/action/CheckForObjects.json
+[6.694s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs
+[6.694s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action
+[6.694s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/check_for_objects.h
+[6.694s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail
+[6.694s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__functions.c
+[6.695s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__functions.h
+[6.695s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__type_support.c
+[6.698s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__description.c
+[6.699s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__struct.h
+[6.703s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__type_support.h
+[6.704s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg
+[6.704s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail
+[6.710s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__functions.h
+[6.710s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__functions.c
+[6.711s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__struct.h
+[6.712s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__type_support.c
+[6.713s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__type_support.h
+[6.713s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__type_support.h
+[6.715s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__description.c
+[6.719s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.c
+[6.722s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__functions.h
+[6.730s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__functions.h
+[6.731s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__functions.c
+[6.747s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__struct.h
+[6.747s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__type_support.c
+[6.747s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__description.c
+[6.748s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__description.c
+[6.749s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__struct.h
+[6.752s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__functions.c
+[6.753s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.h
+[6.753s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/bounding_boxes.h
+[6.754s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.754s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/object_count.h
+[6.754s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/bounding_box.h
+[6.756s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/library_path.sh
+[6.756s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/library_path.dsv
+[6.756s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_generator_c.so
+[6.756s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_c.h
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_c.h
+[6.757s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[6.758s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_fastrtps_c.h
+[6.758s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[6.760s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs
+[6.760s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action
+[6.760s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail
+[6.760s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__struct.hpp
+[6.760s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__type_support.hpp
+[6.763s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__builder.hpp
+[6.763s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__traits.hpp
+[6.763s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/check_for_objects.hpp
+[6.763s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg
+[6.764s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail
+[6.764s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__type_support.hpp
+[6.764s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__traits.hpp
+[6.765s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__struct.hpp
+[6.765s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__builder.hpp
+[6.765s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__struct.hpp
+[6.766s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__struct.hpp
+[6.766s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__traits.hpp
+[6.766s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__traits.hpp
+[6.766s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__type_support.hpp
+[6.766s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__builder.hpp
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.hpp
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__builder.hpp
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/bounding_boxes.hpp
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/bounding_box.hpp
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/object_count.hpp
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/dds_fastrtps
+[6.767s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_fastrtps_cpp.hpp
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_fastrtps_cpp.hpp
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/dds_fastrtps
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action
+[6.768s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail
+[6.769s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_c.h
+[6.769s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__type_support.c
+[6.769s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg
+[6.769s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.769s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail
+[6.769s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__type_support.c
+[6.769s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_c.h
+[6.769s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.c
+[6.769s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[6.770s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_introspection_c.h
+[6.770s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__type_support.c
+[6.770s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_c.so
+[6.776s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_c.so
+[6.777s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs
+[6.780s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action
+[6.780s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail
+[6.780s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__type_support.cpp
+[6.780s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/action/detail/check_for_objects__rosidl_typesupport_introspection_cpp.hpp
+[6.781s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg
+[6.781s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail
+[6.781s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__rosidl_typesupport_introspection_cpp.hpp
+[6.781s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__type_support.cpp
+[6.781s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__rosidl_typesupport_introspection_cpp.hpp
+[6.782s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/object_count__type_support.cpp
+[6.782s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[6.783s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/include/darknet_ros_msgs/darknet_ros_msgs/msg/detail/bounding_boxes__type_support.cpp
+[6.784s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[6.785s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_typesupport_cpp.so
+[6.786s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/pythonpath.sh
+[6.786s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/pythonpath.dsv
+[6.786s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs-1.1.5-py3.12.egg-info
+[6.789s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs-1.1.5-py3.12.egg-info/SOURCES.txt
+[6.789s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs-1.1.5-py3.12.egg-info/dependency_links.txt
+[6.789s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs-1.1.5-py3.12.egg-info/PKG-INFO
+[6.793s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs-1.1.5-py3.12.egg-info/top_level.txt
+[6.795s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs
+[6.803s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/_darknet_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.804s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_c.so
+[6.804s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[6.810s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/__init__.py
+[6.810s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/action
+[6.810s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/action/__init__.py
+[6.811s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/action/_check_for_objects.py
+[6.811s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/action/_check_for_objects_s.c
+[6.811s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/_darknet_ros_msgs_s.ep.rosidl_typesupport_c.c
+[6.811s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[6.811s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/_darknet_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.812s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg
+[6.822s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg/__init__.py
+[6.837s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg/_bounding_boxes.py
+[6.837s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg/_object_count.py
+[6.838s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg/_object_count_s.c
+[6.838s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg/_bounding_box.py
+[6.839s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg/_bounding_box_s.c
+[6.851s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg/_bounding_boxes_s.c
+[7.132s] Listing '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs'...
+[7.132s] Listing '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/action'...
+[7.133s] Listing '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/msg'...
+[7.188s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[7.194s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages/darknet_ros_msgs/darknet_ros_msgs_s__rosidl_typesupport_c.so
+[7.195s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/libdarknet_ros_msgs__rosidl_generator_py.so
+[7.203s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBox.idl
+[7.203s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBoxes.idl
+[7.204s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/ObjectCount.idl
+[7.204s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/action/CheckForObjects.idl
+[7.204s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBox.msg
+[7.204s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/BoundingBoxes.msg
+[7.204s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/msg/ObjectCount.msg
+[7.204s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/action/CheckForObjects.action
+[7.205s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/ament_index/resource_index/package_run_dependencies/darknet_ros_msgs
+[7.205s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/ament_index/resource_index/parent_prefix_path/darknet_ros_msgs
+[7.212s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/ament_prefix_path.sh
+[7.212s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/ament_prefix_path.dsv
+[7.213s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/path.sh
+[7.213s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/environment/path.dsv
+[7.214s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.bash
+[7.214s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.sh
+[7.214s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.zsh
+[7.214s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/local_setup.dsv
+[7.220s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.dsv
+[7.221s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/ament_index/resource_index/packages/darknet_ros_msgs
+[7.222s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_generator_cExport.cmake
+[7.222s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.223s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.224s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.225s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_generator_cppExport.cmake
+[7.226s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.227s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.235s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.235s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.237s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cExport.cmake
+[7.238s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.239s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.239s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cppExport.cmake
+[7.247s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.250s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_generator_pyExport.cmake
+[7.251s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/export_darknet_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.251s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[7.251s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.251s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.251s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.255s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.256s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.256s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.257s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig.cmake
+[7.257s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/cmake/darknet_ros_msgsConfig-version.cmake
+[7.258s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.xml
+[7.303s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs

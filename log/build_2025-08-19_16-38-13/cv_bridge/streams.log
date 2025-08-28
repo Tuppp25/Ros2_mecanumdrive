@@ -1,0 +1,58 @@
+[0.056s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge -- -j4 -l4
+[0.290s] [  0%] Built target ament_cmake_python_copy_cv_bridge
+[0.349s] [ 12%] Built target gtest
+[1.324s] running egg_info
+[1.474s] writing cv_bridge.egg-info/PKG-INFO
+[1.474s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[1.474s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[1.680s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.685s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[1.773s] [ 12%] Built target ament_cmake_python_build_cv_bridge_egg
+[1.889s] [ 25%] Built target gtest_main
+[2.059s] [ 43%] Built target cv_bridge
+[2.198s] [ 62%] Built target cv_bridge_boost
+[2.588s] [100%] Built target cv_bridge-utest
+[2.744s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge -- -j4 -l4
+[2.745s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge
+[2.842s] -- Install configuration: ""
+[2.882s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[2.883s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[2.883s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.0.7-py3.12.egg-info
+[2.900s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.0.7-py3.12.egg-info/SOURCES.txt
+[2.901s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.0.7-py3.12.egg-info/dependency_links.txt
+[2.907s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.0.7-py3.12.egg-info/PKG-INFO
+[2.943s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge-3.0.7-py3.12.egg-info/top_level.txt
+[2.963s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge
+[2.963s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/__init__.py
+[2.964s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/core.py
+[4.035s] Listing '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge'...
+[4.035s] Listing '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost'...
+[4.087s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[4.087s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/library_path.dsv
+[4.087s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/include/cv_bridge
+[4.088s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[4.089s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[4.093s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/libcv_bridge.so
+[4.094s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[4.094s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[4.095s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[4.095s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[4.096s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[4.096s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[4.096s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[4.098s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[4.098s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[4.098s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[4.099s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[4.104s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[4.114s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[4.115s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.115s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.115s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[4.115s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[4.115s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[4.116s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.xml
+[4.125s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/libcv_bridge.so
+[4.125s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[4.149s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[4.250s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge

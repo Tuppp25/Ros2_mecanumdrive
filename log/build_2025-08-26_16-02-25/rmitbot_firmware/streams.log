@@ -1,0 +1,34 @@
+[0.535s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[1.970s] [100%] Built target rmitbot_firmware
+[3.108s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[3.117s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware
+[3.177s] -- Install configuration: ""
+[3.178s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/rmitbot_interface.xml
+[3.190s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/librmitbot_firmware.so
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include/rmitbot_firmware
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include/rmitbot_firmware/rmitbot_interface.hpp
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/launch
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/launch/hardware_interface.launch.py
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.sh
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.dsv
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/package_run_dependencies/rmitbot_firmware
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/parent_prefix_path/rmitbot_firmware
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.sh
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.dsv
+[3.191s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.sh
+[3.192s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.dsv
+[3.192s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.bash
+[3.205s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.sh
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.zsh
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.dsv
+[3.206s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.dsv
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/packages/rmitbot_firmware
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rmitbot_firmware
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig.cmake
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig-version.cmake
+[3.206s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.xml
+[3.277s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware

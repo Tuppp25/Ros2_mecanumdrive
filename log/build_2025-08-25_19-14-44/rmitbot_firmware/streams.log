@@ -1,0 +1,34 @@
+[0.425s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[3.181s] [100%] Built target rmitbot_firmware
+[3.267s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[3.276s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware
+[3.357s] -- Install configuration: ""
+[3.357s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/rmitbot_interface.xml
+[3.357s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/librmitbot_firmware.so
+[3.363s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include
+[3.363s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include/rmitbot_firmware
+[3.363s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/include/rmitbot_firmware/rmitbot_interface.hpp
+[3.363s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/launch
+[3.363s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/launch/hardware_interface.launch.py
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.sh
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/library_path.dsv
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/package_run_dependencies/rmitbot_firmware
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/parent_prefix_path/rmitbot_firmware
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.sh
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/ament_prefix_path.dsv
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.sh
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/environment/path.dsv
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.bash
+[3.364s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.sh
+[3.398s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.zsh
+[3.398s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/local_setup.dsv
+[3.398s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.dsv
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/packages/rmitbot_firmware
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rmitbot_firmware
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig.cmake
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/cmake/rmitbot_firmwareConfig-version.cmake
+[3.399s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.xml
+[3.510s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware

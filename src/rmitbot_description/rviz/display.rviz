@@ -59,17 +59,17 @@ Visualization Manager:
           Value: true
         camera_link:
           Value: true
-        caster_front_link:
+        front_left_wheel:
           Value: true
-        caster_rear_link:
+        front_right_wheel:
           Value: true
         imu_link:
           Value: true
         laser_link:
           Value: true
-        wheel_left_link:
+        rear_left_wheel:
           Value: true
-        wheel_right_link:
+        rear_right_wheel:
           Value: true
       Marker Scale: 0.5
       Name: TF
@@ -81,17 +81,17 @@ Visualization Manager:
           base_link:
             camera_link:
               {}
-            caster_front_link:
+            rear_left_wheel:
               {}
-            caster_rear_link:
+            rear_right_wheel:
               {}
             imu_link:
               {}
             laser_link:
               {}
-            wheel_left_link:
+            front_left_wheel:
               {}
-            wheel_right_link:
+            front_right_wheel:
               {}
       Update Interval: 0
       Value: true
@@ -127,12 +127,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        caster_front_link:
+        rear_left_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        caster_rear_link:
+        rear_right_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -147,12 +147,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        wheel_left_link:
+        front_right_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        wheel_right_link:
+        front_left_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false

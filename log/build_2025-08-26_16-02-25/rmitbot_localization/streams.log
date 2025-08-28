@@ -1,0 +1,24 @@
+[0.223s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[1.291s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[1.322s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization
+[1.367s] -- Install configuration: ""
+[1.367s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/launch
+[1.368s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/launch/local_localization.launch.py
+[1.369s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/config
+[1.369s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/config/ekf.yaml
+[1.369s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/package_run_dependencies/rmitbot_localization
+[1.369s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/parent_prefix_path/rmitbot_localization
+[1.372s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/ament_prefix_path.sh
+[1.372s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/ament_prefix_path.dsv
+[1.378s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/path.sh
+[1.378s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/path.dsv
+[1.379s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.bash
+[1.380s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.sh
+[1.380s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.zsh
+[1.381s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.dsv
+[1.388s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.dsv
+[1.388s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/packages/rmitbot_localization
+[1.389s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/cmake/rmitbot_localizationConfig.cmake
+[1.389s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/cmake/rmitbot_localizationConfig-version.cmake
+[1.389s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.xml
+[1.390s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization

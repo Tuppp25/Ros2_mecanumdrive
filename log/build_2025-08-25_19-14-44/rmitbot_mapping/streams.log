@@ -1,0 +1,27 @@
+[1.225s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping -- -j4 -l4
+[2.175s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping -- -j4 -l4
+[2.175s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping
+[2.201s] -- Install configuration: ""
+[2.201s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/launch
+[2.201s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/launch/lidar.launch.py
+[2.201s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/launch/nav2_slam.launch.py
+[2.201s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/launch/slam.launch.py
+[2.202s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/config
+[2.210s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/config/nav2_params.yaml
+[2.239s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/config/slam.yaml
+[2.240s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/package_run_dependencies/rmitbot_mapping
+[2.240s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/parent_prefix_path/rmitbot_mapping
+[2.240s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/ament_prefix_path.sh
+[2.240s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/ament_prefix_path.dsv
+[2.240s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/path.sh
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/environment/path.dsv
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.bash
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.sh
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.zsh
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/local_setup.dsv
+[2.241s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.dsv
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/ament_index/resource_index/packages/rmitbot_mapping
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/cmake/rmitbot_mappingConfig.cmake
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/cmake/rmitbot_mappingConfig-version.cmake
+[2.241s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.xml
+[2.241s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping

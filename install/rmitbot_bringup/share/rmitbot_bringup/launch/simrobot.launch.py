@@ -50,7 +50,7 @@ def generate_launch_description():
     )
     
     mapping_launch = IncludeLaunchDescription(
-        os.path.join(get_package_share_directory("rmitbot_mapping"),"launch","slam.launch.py"),
+        os.path.join(get_package_share_directory("rmitbot_mapping"),"launch","nav2_slam.launch.py"),
         launch_arguments={"use_sim": "true"}.items()
         # launch_arguments={"use_sim": LaunchConfiguration('use_sim')}.items()
     )

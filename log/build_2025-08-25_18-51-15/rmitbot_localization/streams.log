@@ -1,0 +1,24 @@
+[0.074s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[1.002s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[1.003s] Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization
+[1.056s] -- Install configuration: ""
+[1.056s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/launch
+[1.062s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/launch/local_localization.launch.py
+[1.062s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/config
+[1.062s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/config/ekf.yaml
+[1.068s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/package_run_dependencies/rmitbot_localization
+[1.068s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/parent_prefix_path/rmitbot_localization
+[1.068s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/ament_prefix_path.sh
+[1.068s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/ament_prefix_path.dsv
+[1.068s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/path.sh
+[1.068s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/environment/path.dsv
+[1.070s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.bash
+[1.071s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.sh
+[1.071s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.zsh
+[1.071s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/local_setup.dsv
+[1.071s] -- Installing: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.dsv
+[1.071s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/ament_index/resource_index/packages/rmitbot_localization
+[1.071s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/cmake/rmitbot_localizationConfig.cmake
+[1.071s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/cmake/rmitbot_localizationConfig-version.cmake
+[1.071s] -- Up-to-date: /home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.xml
+[1.075s] Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control:/home/ngan/Documents/test_github/lesson6_ws/install/opencv_tests:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization

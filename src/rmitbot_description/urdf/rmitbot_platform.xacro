@@ -22,6 +22,9 @@
             <geometry>
                 <mesh filename="package://rmitbot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
             </geometry>
+            <material name="blue">
+                <color rgba="0 0 1 1"/>
+            </material>
         </visual>
         <collision>
             <origin xyz="0 0 0.068" rpy="0 0 0" />
@@ -41,7 +44,36 @@
     <joint name="base_joint" type="fixed">
         <parent link="base_footprint"/>
         <child link="base_link" />
-        <origin xyz="0 0 0.052" rpy="0 0 0"/>
+        <origin xyz="0 0 0.052" rpy="0 0 -${pi/2}"/>
+    </joint>
+
+    <link name="laser">
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.1" />
+            <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001" />
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="0.05" length="0.1" />
+            </geometry>
+            <material name="green">
+                <color rgba="0 1 0 1" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <cylinder radius="0.05" length="0.1" />
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="laser_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="laser" />
+        <origin xyz="0.15 0.15 0.1" rpy="0.0 0.0 ${pi/2}" />
     </joint>
 
     <link name="front_left_wheel">
@@ -58,6 +90,9 @@
             <geometry>
                 <mesh filename="package://rmitbot_description/meshes/front_left_wheel.stl" scale="0.001 0.001 0.001" />
             </geometry>
+            <material name="black">
+                <color rgba="0 0 0 1"/>
+            </material>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 ${pi/2} 0" />
@@ -74,7 +109,7 @@
         <axis xyz="1 0 0" />
     </joint>
 
-    <link name="rear_left_wheel">
+    <link name="rear_right_wheel">
         <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <mass value="4.315763" />
@@ -88,6 +123,9 @@
             <geometry>
                 <mesh filename="package://rmitbot_description/meshes/rear_left_wheel.stl" scale="0.001 0.001 0.001"/>
             </geometry>
+            <material name="black">
+                <color rgba="0 0 0 1"/>
+            </material>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 ${pi/2} 0" />
@@ -98,7 +136,7 @@
     </link>
 
 
-    <joint name="rear_left_wheel_joint" type="continuous">
+    <joint name="rear_right_wheel_joint" type="continuous">
         <origin xyz="-0.18045 -0.17 -0.003" rpy="0 0 0" />
         <parent link="base_link" />
         <child link="rear_left_wheel" />
@@ -119,6 +157,9 @@
             <geometry>
                 <mesh filename="package://rmitbot_description/meshes/front_right_wheel.stl" scale="0.001 0.001 0.001"/>
             </geometry>
+            <material name="black">
+                <color rgba="0 0 0 1"/>
+            </material>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 ${pi/2} 0" />
@@ -135,7 +176,7 @@
         <axis xyz="1 0 0" />
     </joint>
 
-    <link name="rear_right_wheel">
+    <link name="rear_left_wheel">
         <inertial>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <mass value="4.315763" />
@@ -149,6 +190,9 @@
             <geometry>
                 <mesh filename="package://rmitbot_description/meshes/rear_right_wheel.stl" scale="0.001 0.001 0.001"/>
             </geometry>
+            <material name="black">
+                <color rgba="0 0 0 1"/>
+            </material>
         </visual>
         <collision>
             <origin xyz="0 0 0" rpy="0 ${pi/2} 0" />
@@ -159,10 +203,13 @@
     </link>
 
 
-    <joint name="rear_right_wheel_joint" type="continuous">
+    <joint name="rear_left_wheel_joint" type="continuous">
         <origin xyz="0.18045 -0.17 -0.003" rpy="0 0 0" />
         <parent link="base_link" />
         <child link="rear_right_wheel" />
         <axis xyz="1 0 0" />
     </joint>
 </robot>
+
+
+

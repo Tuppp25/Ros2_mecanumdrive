@@ -1,0 +1,893 @@
+[0.239s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.239s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xeab82aee4230>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xeab82ae08920>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xeab82ae08920>>)
+[0.327s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.328s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.328s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngan/Documents/test_github/lesson6_ws'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_bringup) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_bringup' with type 'ros.ament_cmake' and name 'rmitbot_bringup'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_controller) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_controller' with type 'ros.ament_cmake' and name 'rmitbot_controller'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_description) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_description' with type 'ros.ament_cmake' and name 'rmitbot_description'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_firmware) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_firmware' with type 'ros.ament_cmake' and name 'rmitbot_firmware'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_localization) by extension 'ros'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_localization' with type 'ros.ament_cmake' and name 'rmitbot_localization'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extension 'ignore'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extension 'ignore_ament_install'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extensions ['colcon_pkg']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_mapping) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_mapping' with type 'ros.ament_cmake' and name 'rmitbot_mapping'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'colcon_meta'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'ros'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extensions ['cmake', 'python']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'cmake'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'python'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extensions ['python_setup_py']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision) by extension 'python_setup_py'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'colcon_pkg'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extensions ['colcon_meta']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros) by extension 'python_setup_py'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'ros'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extensions ['cmake', 'python']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'cmake'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'python'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extensions ['python_setup_py']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extensions ['ignore', 'ignore_ament_install']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extension 'ignore'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extension 'ignore_ament_install'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extensions ['colcon_pkg']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extension 'colcon_pkg'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extensions ['colcon_meta']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extension 'colcon_meta'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extensions ['ros']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extension 'cmake'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet) by extension 'python'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_vision/darknet_ros/darknet_ros/darknet' with type 'cmake' and name 'Darknet'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extension 'ignore'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros' with type 'ros.ament_cmake' and name 'darknet_ros'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs' with type 'ros.ament_cmake' and name 'darknet_ros_msgs'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/stop_sign_control) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_vision/stop_sign_control' with type 'ros.ament_python' and name 'stop_sign_control'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'ros'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extensions ['cmake', 'python']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'cmake'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'python'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extensions ['python_setup_py']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv) by extension 'python_setup_py'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/cv_bridge) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_vision/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/image_geometry) by extension 'ros'
+[0.448s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_vision/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/rmitbot_vision/vision_opencv/vision_opencv) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rmitbot_vision/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'cmake_target' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'cmake_clean_cache' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'cmake_clean_first' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'ament_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'catkin_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'Darknet' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.513s] DEBUG:colcon.colcon_core.verb:Building package 'Darknet' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet', 'symlink_install': False, 'test_result_base': None}
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.513s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/cv_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.513s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'darknet_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/image_geometry', 'symlink_install': False, 'test_result_base': None}
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.514s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.514s] DEBUG:colcon.colcon_core.verb:Building package 'rmitbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'rmitbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.515s] DEBUG:colcon.colcon_core.verb:Building package 'rmitbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.515s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'rmitbot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'rmitbot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_localization', 'symlink_install': False, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'cmake_target' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'rmitbot_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.516s] DEBUG:colcon.colcon_core.verb:Building package 'rmitbot_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_args' from command line to 'None'
+[0.516s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'darknet_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'darknet_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'stop_sign_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'stop_sign_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control', 'symlink_install': False, 'test_result_base': None}
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv', 'merge_install': False, 'path': '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/vision_opencv', 'symlink_install': False, 'test_result_base': None}
+[0.517s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.520s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[0.520s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/cv_bridge'
+[0.527s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs' with build type 'ament_cmake'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros_msgs'
+[0.533s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.535s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/image_geometry' with build type 'ament_cmake'
+[0.535s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/image_geometry'
+[0.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet'
+[0.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge -- -j4 -l4
+[0.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry -- -j4 -l4
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/Darknet -- -j4 -l4
+[0.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs -- -j4 -l4
+[2.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/Darknet -- -j4 -l4
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/Darknet
+[2.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Darknet)
+[2.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/Darknet' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/Darknet
+[2.515s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet' for CMake module files
+[2.516s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet' for CMake config files
+[2.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('Darknet', 'cmake_prefix_path')
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/Darknet/hook/cmake_prefix_path.dsv'
+[2.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/Darknet/hook/cmake_prefix_path.sh'
+[2.562s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/bin'
+[2.562s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/lib/pkgconfig/Darknet.pc'
+[2.603s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/lib/python3.12/site-packages'
+[2.612s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/bin'
+[2.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/Darknet/package.dsv'
+[2.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/Darknet/package.sh'
+[2.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/Darknet/package.bash'
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/Darknet/package.zsh'
+[2.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/Darknet/share/colcon-core/packages/Darknet)
+[2.665s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_bringup' with build type 'ament_cmake'
+[2.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_bringup'
+[2.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup -- -j4 -l4
+[3.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup -- -j4 -l4
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup
+[3.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_bringup)
+[3.179s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup' for CMake module files
+[3.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_bringup
+[3.186s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup' for CMake config files
+[3.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_bringup', 'cmake_prefix_path')
+[3.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/hook/cmake_prefix_path.dsv'
+[3.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/hook/cmake_prefix_path.sh'
+[3.266s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/bin'
+[3.267s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/lib/pkgconfig/rmitbot_bringup.pc'
+[3.277s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/lib/python3.12/site-packages'
+[3.278s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/bin'
+[3.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.dsv'
+[3.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.sh'
+[3.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.bash'
+[3.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.zsh'
+[3.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/colcon-core/packages/rmitbot_bringup)
+[3.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_bringup)
+[3.317s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup' for CMake module files
+[3.322s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup' for CMake config files
+[3.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_bringup', 'cmake_prefix_path')
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/hook/cmake_prefix_path.dsv'
+[3.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/hook/cmake_prefix_path.sh'
+[3.331s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/bin'
+[3.331s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/lib/pkgconfig/rmitbot_bringup.pc'
+[3.332s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/lib/python3.12/site-packages'
+[3.333s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/bin'
+[3.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.dsv'
+[3.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.sh'
+[3.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.bash'
+[3.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/rmitbot_bringup/package.zsh'
+[3.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_bringup/share/colcon-core/packages/rmitbot_bringup)
+[3.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_controller' with build type 'ament_cmake'
+[3.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_controller'
+[3.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller -- -j4 -l4
+[3.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs -- -j4 -l4
+[3.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs
+[3.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller -- -j4 -l4
+[3.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller
+[3.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry -- -j4 -l4
+[3.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry
+[4.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_controller)
+[4.067s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller' for CMake module files
+[4.078s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller' for CMake config files
+[4.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_controller', 'cmake_prefix_path')
+[4.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/hook/cmake_prefix_path.dsv'
+[4.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_controller
+[4.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/hook/cmake_prefix_path.sh'
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/bin'
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/lib/pkgconfig/rmitbot_controller.pc'
+[4.119s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/lib/python3.12/site-packages'
+[4.120s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/bin'
+[4.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.dsv'
+[4.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.sh'
+[4.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.bash'
+[4.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.zsh'
+[4.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/colcon-core/packages/rmitbot_controller)
+[4.163s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_controller)
+[4.163s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller' for CMake module files
+[4.171s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller' for CMake config files
+[4.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_controller', 'cmake_prefix_path')
+[4.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/hook/cmake_prefix_path.dsv'
+[4.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/hook/cmake_prefix_path.sh'
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/bin'
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/lib/pkgconfig/rmitbot_controller.pc'
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/lib/python3.12/site-packages'
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/bin'
+[4.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.dsv'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.sh'
+[4.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.bash'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/rmitbot_controller/package.zsh'
+[4.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_controller/share/colcon-core/packages/rmitbot_controller)
+[4.185s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_description' with build type 'ament_cmake'
+[4.186s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_description'
+[4.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description -- -j4 -l4
+[5.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/image_geometry' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/image_geometry
+[5.699s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[5.789s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry' for CMake module files
+[5.860s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry' for CMake config files
+[5.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[5.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[5.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[5.958s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib'
+[5.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[5.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[5.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[6.000s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/bin'
+[6.001s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[6.006s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages'
+[6.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'pythonpath')
+[6.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/pythonpath.dsv'
+[6.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/pythonpath.sh'
+[6.019s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/bin'
+[6.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.dsv'
+[6.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.sh'
+[6.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.bash'
+[6.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.zsh'
+[6.038s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[6.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_geometry)
+[6.049s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry' for CMake module files
+[6.059s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry' for CMake config files
+[6.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'cmake_prefix_path')
+[6.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.dsv'
+[6.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/cmake_prefix_path.sh'
+[6.076s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib'
+[6.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'ld_library_path_lib')
+[6.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.dsv'
+[6.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/ld_library_path_lib.sh'
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/bin'
+[6.086s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/pkgconfig/image_geometry.pc'
+[6.087s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages'
+[6.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_geometry', 'pythonpath')
+[6.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/pythonpath.dsv'
+[6.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/hook/pythonpath.sh'
+[6.108s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/bin'
+[6.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.dsv'
+[6.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.sh'
+[6.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.bash'
+[6.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/image_geometry/package.zsh'
+[6.132s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/share/colcon-core/packages/image_geometry)
+[6.159s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_firmware' with build type 'ament_cmake'
+[6.162s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_firmware'
+[6.166s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros_msgs)
+[6.207s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs' for CMake module files
+[6.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros_msgs
+[6.219s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs' for CMake config files
+[6.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'cmake_prefix_path')
+[6.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.dsv'
+[6.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.sh'
+[6.246s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib'
+[6.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'ld_library_path_lib')
+[6.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.dsv'
+[6.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.sh'
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/bin'
+[6.286s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/pkgconfig/darknet_ros_msgs.pc'
+[6.293s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages'
+[6.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'pythonpath')
+[6.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.dsv'
+[6.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.sh'
+[6.342s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/bin'
+[6.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.dsv'
+[6.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.sh'
+[6.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.bash'
+[6.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.zsh'
+[6.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/colcon-core/packages/darknet_ros_msgs)
+[6.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros_msgs)
+[6.403s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs' for CMake module files
+[6.419s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs' for CMake config files
+[6.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'cmake_prefix_path')
+[6.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.dsv'
+[6.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/cmake_prefix_path.sh'
+[6.461s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib'
+[6.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'ld_library_path_lib')
+[6.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.dsv'
+[6.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/ld_library_path_lib.sh'
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/bin'
+[6.469s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/pkgconfig/darknet_ros_msgs.pc'
+[6.469s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages'
+[6.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros_msgs', 'pythonpath')
+[6.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.dsv'
+[6.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/hook/pythonpath.sh'
+[6.476s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/bin'
+[6.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.dsv'
+[6.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.sh'
+[6.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.bash'
+[6.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/darknet_ros_msgs/package.zsh'
+[6.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/share/colcon-core/packages/darknet_ros_msgs)
+[6.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_localization' with build type 'ament_cmake'
+[6.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_localization'
+[6.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge -- -j4 -l4
+[6.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge
+[6.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description -- -j4 -l4
+[6.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description
+[6.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[6.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[6.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_description)
+[6.861s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description' for CMake module files
+[6.869s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description' for CMake config files
+[6.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_description', 'cmake_prefix_path')
+[6.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/hook/cmake_prefix_path.dsv'
+[6.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/hook/cmake_prefix_path.sh'
+[6.922s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/bin'
+[6.923s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/lib/pkgconfig/rmitbot_description.pc'
+[6.923s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/lib/python3.12/site-packages'
+[6.924s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/bin'
+[6.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_description
+[6.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.dsv'
+[6.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.sh'
+[6.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.bash'
+[6.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.zsh'
+[6.940s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/colcon-core/packages/rmitbot_description)
+[6.963s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_description)
+[6.965s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description' for CMake module files
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description' for CMake config files
+[6.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_description', 'cmake_prefix_path')
+[6.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/hook/cmake_prefix_path.dsv'
+[6.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/hook/cmake_prefix_path.sh'
+[7.006s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/bin'
+[7.007s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/lib/pkgconfig/rmitbot_description.pc'
+[7.020s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/lib/python3.12/site-packages'
+[7.020s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/bin'
+[7.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.dsv'
+[7.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.sh'
+[7.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.bash'
+[7.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/rmitbot_description/package.zsh'
+[7.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_description/share/colcon-core/packages/rmitbot_description)
+[7.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_mapping' with build type 'ament_cmake'
+[7.104s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_mapping'
+[7.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping -- -j4 -l4
+[7.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[7.386s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge' for CMake module files
+[7.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/cv_bridge
+[7.394s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge' for CMake config files
+[7.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[7.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[7.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[7.404s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib'
+[7.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[7.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[7.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[7.408s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/bin'
+[7.408s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[7.409s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages'
+[7.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[7.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[7.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[7.413s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/bin'
+[7.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[7.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[7.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[7.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[7.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[7.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge' for CMake module files
+[7.467s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge' for CMake config files
+[7.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[7.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[7.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[7.571s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib'
+[7.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[7.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[7.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[7.610s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/bin'
+[7.612s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[7.619s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages'
+[7.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[7.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[7.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[7.651s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/bin'
+[7.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[7.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[7.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[7.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[7.725s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[7.756s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros' with build type 'ament_cmake'
+[7.757s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/darknet_ros/darknet_ros/darknet_ros'
+[7.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization -- -j4 -l4
+[7.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization
+[7.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping -- -j4 -l4
+[7.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping
+[7.886s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_localization)
+[7.889s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization' for CMake module files
+[7.895s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization' for CMake config files
+[7.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_localization
+[7.905s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_localization', 'cmake_prefix_path')
+[7.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/hook/cmake_prefix_path.dsv'
+[7.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/hook/cmake_prefix_path.sh'
+[7.912s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/bin'
+[7.912s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/lib/pkgconfig/rmitbot_localization.pc'
+[7.915s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/lib/python3.12/site-packages'
+[7.915s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/bin'
+[7.916s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.dsv'
+[7.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.sh'
+[7.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.bash'
+[7.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.zsh'
+[7.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/colcon-core/packages/rmitbot_localization)
+[7.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_localization)
+[7.941s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization' for CMake module files
+[7.946s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization' for CMake config files
+[7.946s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_localization', 'cmake_prefix_path')
+[7.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/hook/cmake_prefix_path.dsv'
+[7.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/hook/cmake_prefix_path.sh'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/bin'
+[7.954s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/lib/pkgconfig/rmitbot_localization.pc'
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/lib/python3.12/site-packages'
+[7.955s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/bin'
+[7.962s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.dsv'
+[7.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.sh'
+[8.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.bash'
+[8.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/rmitbot_localization/package.zsh'
+[8.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_localization/share/colcon-core/packages/rmitbot_localization)
+[8.104s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control' with build type 'ament_python'
+[8.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('stop_sign_control', 'ament_prefix_path')
+[8.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/hook/ament_prefix_path.dsv'
+[8.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/hook/ament_prefix_path.sh'
+[8.124s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros -- -j4 -l4
+[8.208s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_mapping)
+[8.208s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping' for CMake module files
+[8.209s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping' for CMake config files
+[8.210s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_mapping', 'cmake_prefix_path')
+[8.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/hook/cmake_prefix_path.dsv'
+[8.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_mapping
+[8.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/hook/cmake_prefix_path.sh'
+[8.269s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/bin'
+[8.270s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/lib/pkgconfig/rmitbot_mapping.pc'
+[8.270s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/lib/python3.12/site-packages'
+[8.271s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/bin'
+[8.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.dsv'
+[8.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.sh'
+[8.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.bash'
+[8.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.zsh'
+[8.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/colcon-core/packages/rmitbot_mapping)
+[8.295s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_mapping)
+[8.296s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping' for CMake module files
+[8.296s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping' for CMake config files
+[8.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_mapping', 'cmake_prefix_path')
+[8.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/hook/cmake_prefix_path.dsv'
+[8.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/hook/cmake_prefix_path.sh'
+[8.326s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/bin'
+[8.335s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/lib/pkgconfig/rmitbot_mapping.pc'
+[8.336s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/lib/python3.12/site-packages'
+[8.337s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/bin'
+[8.346s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.dsv'
+[8.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.sh'
+[8.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.bash'
+[8.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/rmitbot_mapping/package.zsh'
+[8.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_mapping/share/colcon-core/packages/rmitbot_mapping)
+[8.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/vision_opencv' with build type 'ament_cmake'
+[8.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/vision_opencv/vision_opencv'
+[8.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.271s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control'
+[9.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware -- -j4 -l4
+[9.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware
+[9.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv -- -j4 -l4
+[9.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros' returned '0': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros -- -j4 -l4
+[9.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros
+[9.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_firmware)
+[9.443s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware' for CMake module files
+[9.444s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware' for CMake config files
+[9.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_firmware', 'cmake_prefix_path')
+[9.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/cmake_prefix_path.dsv'
+[9.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/cmake_prefix_path.sh'
+[9.457s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib'
+[9.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/rmitbot_firmware
+[9.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_firmware', 'ld_library_path_lib')
+[9.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/ld_library_path_lib.dsv'
+[9.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/ld_library_path_lib.sh'
+[9.469s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/bin'
+[9.471s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/pkgconfig/rmitbot_firmware.pc'
+[9.472s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/python3.12/site-packages'
+[9.472s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/bin'
+[9.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.dsv'
+[9.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.sh'
+[9.483s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.bash'
+[9.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.zsh'
+[9.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/colcon-core/packages/rmitbot_firmware)
+[9.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rmitbot_firmware)
+[9.496s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware' for CMake module files
+[9.497s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware' for CMake config files
+[9.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_firmware', 'cmake_prefix_path')
+[9.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/cmake_prefix_path.dsv'
+[9.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/cmake_prefix_path.sh'
+[9.507s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib'
+[9.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('rmitbot_firmware', 'ld_library_path_lib')
+[9.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/ld_library_path_lib.dsv'
+[9.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/hook/ld_library_path_lib.sh'
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/bin'
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/pkgconfig/rmitbot_firmware.pc'
+[9.515s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/lib/python3.12/site-packages'
+[9.516s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/bin'
+[9.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.dsv'
+[9.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.sh'
+[9.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.bash'
+[9.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/rmitbot_firmware/package.zsh'
+[9.531s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/rmitbot_firmware/share/colcon-core/packages/rmitbot_firmware)
+[9.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros)
+[9.538s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros' for CMake module files
+[9.540s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros' for CMake config files
+[9.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros' returned '0': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/darknet_ros
+[9.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros', 'cmake_prefix_path')
+[9.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.dsv'
+[9.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.sh'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/lib'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/bin'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/lib/pkgconfig/darknet_ros.pc'
+[9.552s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/lib/python3.12/site-packages'
+[9.555s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/bin'
+[9.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.dsv'
+[9.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.sh'
+[9.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.bash'
+[9.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.zsh'
+[9.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/colcon-core/packages/darknet_ros)
+[9.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(darknet_ros)
+[9.573s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros' for CMake module files
+[9.574s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros' for CMake config files
+[9.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('darknet_ros', 'cmake_prefix_path')
+[9.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.dsv'
+[9.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/hook/cmake_prefix_path.sh'
+[9.595s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/lib'
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/bin'
+[9.610s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/lib/pkgconfig/darknet_ros.pc'
+[9.611s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/lib/python3.12/site-packages'
+[9.611s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/bin'
+[9.611s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.dsv'
+[9.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.sh'
+[9.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.bash'
+[9.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/darknet_ros/package.zsh'
+[9.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros/share/colcon-core/packages/darknet_ros)
+[9.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --build /home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv -- -j4 -l4
+[9.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv
+[9.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[9.734s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv' for CMake module files
+[9.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv' returned '0': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/install/image_geometry/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/cv_bridge/lib/python3.12/site-packages /usr/bin/cmake --install /home/ngan/Documents/test_github/lesson6_ws/build/vision_opencv
+[9.755s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv' for CMake config files
+[9.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[9.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[9.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[9.772s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/bin'
+[9.772s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[9.774s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/lib/python3.12/site-packages'
+[9.777s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/bin'
+[9.778s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[9.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[9.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[9.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[9.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[9.792s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vision_opencv)
+[9.793s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv' for CMake module files
+[9.794s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv' for CMake config files
+[9.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('vision_opencv', 'cmake_prefix_path')
+[9.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.dsv'
+[9.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/hook/cmake_prefix_path.sh'
+[9.802s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/bin'
+[9.802s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/lib/pkgconfig/vision_opencv.pc'
+[9.805s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/lib/python3.12/site-packages'
+[9.805s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/bin'
+[9.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.dsv'
+[9.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.sh'
+[9.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.bash'
+[9.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/vision_opencv/package.zsh'
+[9.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/vision_opencv/share/colcon-core/packages/vision_opencv)
+[11.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stop_sign_control build --build-base /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/build install --record /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/install.log --single-version-externally-managed install_data
+[12.641s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control' for CMake module files
+[12.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngan/Documents/test_github/lesson6_ws/src/rmitbot_vision/stop_sign_control' returned '0': AMENT_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs CMAKE_PREFIX_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib PYTHONPATH=/home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/python3.12/site-packages:/home/ngan/Documents/test_github/lesson6_ws/install/darknet_ros_msgs/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/stop_sign_control build --build-base /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/build install --record /home/ngan/Documents/test_github/lesson6_ws/build/stop_sign_control/install.log --single-version-externally-managed install_data
+[12.643s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control' for CMake config files
+[12.644s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib'
+[12.644s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/bin'
+[12.644s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/pkgconfig/stop_sign_control.pc'
+[12.645s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/lib/python3.12/site-packages'
+[12.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('stop_sign_control', 'pythonpath')
+[12.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/hook/pythonpath.dsv'
+[12.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/hook/pythonpath.sh'
+[12.695s] Level 1:colcon.colcon_core.environment:checking '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/bin'
+[12.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stop_sign_control)
+[12.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/package.dsv'
+[12.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/package.sh'
+[12.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/package.bash'
+[12.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/stop_sign_control/package.zsh'
+[12.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngan/Documents/test_github/lesson6_ws/install/stop_sign_control/share/colcon-core/packages/stop_sign_control)
+[12.718s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.719s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.752s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.758s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.758s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.356s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngan/Documents/test_github/lesson6_ws/install/local_setup.sh'
+[13.364s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngan/Documents/test_github/lesson6_ws/install/_local_setup_util_sh.py'
+[13.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngan/Documents/test_github/lesson6_ws/install/setup.sh'
+[13.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngan/Documents/test_github/lesson6_ws/install/local_setup.bash'
+[13.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngan/Documents/test_github/lesson6_ws/install/setup.bash'
+[13.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngan/Documents/test_github/lesson6_ws/install/local_setup.zsh'
+[13.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngan/Documents/test_github/lesson6_ws/install/setup.zsh'

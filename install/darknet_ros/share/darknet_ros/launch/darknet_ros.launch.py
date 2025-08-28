@@ -41,7 +41,7 @@ def generate_launch_description():
     description = 'Path to file with ROS related config')
   declare_network_param_file_cmd = DeclareLaunchArgument(
     'network_param_file',
-    default_value = darknet_ros_share_dir + '/config/yolov7-tiny.yaml',
+    default_value = darknet_ros_share_dir + '/config/yolov4-tiny.yaml',
     description = 'Path to file with network param file')
 
   darknet_ros_cmd = Node(
